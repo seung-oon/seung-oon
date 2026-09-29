@@ -1,72 +1,67 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=soft&height=140&color=0:161b22%2C100:1f6feb&text=Seungyoon%20Kim&fontSize=44&fontColor=f0f6fc&fontAlignY=40&desc=Backend%20Developer%20%C2%B7%20Medical%20AI%20Research&descSize=18&descAlignY=67&animation=none">
-  <img alt="Seungyoon Kim · Backend Developer · Medical AI Research" width="100%" src="https://capsule-render.vercel.app/api?type=soft&height=140&color=0:ddf4ff%2C100:54aeff&text=Seungyoon%20Kim&fontSize=44&fontColor=1f2328&fontAlignY=40&desc=Backend%20Developer%20%C2%B7%20Medical%20AI%20Research&descSize=18&descAlignY=67&animation=none">
-</picture>
+<p><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img alt="Seungyoon Kim · Backend Developer · Medical AI Research" width="100%" src="assets/hero-light.svg">
+</picture></p>
 
-<div align="center">
-
-한성대학교 컴퓨터공학부 4학년 · **Backend Developer**<br>
+한성대학교 컴퓨터공학부 4학년 · **Backend&nbsp;Developer**<br>
 Java / Spring Boot 백엔드를 중심으로 공간 DB, 클라우드 인프라, 의료 AI 연구까지 다루고 있습니다.
 
-<a href="mailto:rlatmddbs02@gmail.com"><img alt="Email rlatmddbs02@gmail.com" src="https://img.shields.io/badge/Email-rlatmddbs02%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white"></a>
-<a href="https://www.linkedin.com/in/%EC%8A%B9%EC%9C%A4-%EA%B9%80-87099041a/"><img alt="LinkedIn 김승윤" src="https://img.shields.io/badge/LinkedIn-%EA%B9%80%EC%8A%B9%EC%9C%A4-0A66C2?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8%2BPC9zdmc%2B"></a>
+<p>
+<a href="mailto:rlatmddbs02@gmail.com"><img alt="Email rlatmddbs02@gmail.com" src="https://img.shields.io/badge/rlatmddbs02%40gmail.com-0A66C2?style=flat-square&logo=gmail&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/%EC%8A%B9%EC%9C%A4-%EA%B9%80-87099041a/"><img alt="LinkedIn 김승윤" src="https://img.shields.io/badge/%EA%B9%80%EC%8A%B9%EC%9C%A4-0A66C2?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8%2BPC9zdmc%2B"></a>
+</p>
 
-<samp>
-<a href="#tech-stack">stack</a> ·
-<a href="#projects">projects</a> ·
-<a href="#research">research</a> ·
-<a href="#others">others</a> ·
-<a href="https://github.com/seung-oon?tab=repositories">all repos</a>
-</samp>
-
-</div>
+<p>
+<kbd><a href="#tech-stack">stack</a></kbd>
+<kbd><a href="#projects">projects</a></kbd>
+<kbd><a href="#research">research</a></kbd>
+<kbd><a href="#others">others</a></kbd>
+<kbd><a href="https://github.com/seung-oon?tab=repositories">all&nbsp;repos&nbsp;↗</a></kbd>
+</p>
 
 ## Tech Stack
 
-**Backend**<br>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java%2Cspring%2Cmysql%2Cpostgres%2Credis&theme=dark"><img alt="Java, Spring Boot, MySQL, PostgreSQL, Redis" height="36" src="https://skillicons.dev/icons?i=java,spring,mysql,postgres,redis&theme=light"></picture> <sub>+ PostGIS</sub>
-
-**Infra**<br>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws%2Cdocker%2Cgithubactions&theme=dark"><img alt="AWS, Docker, GitHub Actions" height="36" src="https://skillicons.dev/icons?i=aws,docker,githubactions&theme=light"></picture>
-
-**AI / Research**<br>
-<picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py%2Cpytorch&theme=dark"><img alt="Python, PyTorch" height="36" src="https://skillicons.dev/icons?i=py,pytorch&theme=light"></picture> <sub>+ LangChain / RAG</sub>
+<table>
+<tr><td><b>Backend</b></td><td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java%2Cspring%2Cmysql%2Cpostgres%2Credis&theme=dark"><img alt="Java, Spring Boot, MySQL, PostgreSQL, Redis" height="30" align="absmiddle" src="https://skillicons.dev/icons?i=java,spring,mysql,postgres,redis&theme=light"></picture> &nbsp;<code>+&nbsp;PostGIS</code></td></tr>
+<tr><td><b>Infra</b></td><td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=aws%2Cdocker%2Cgithubactions&theme=dark"><img alt="AWS, Docker, GitHub Actions" height="30" align="absmiddle" src="https://skillicons.dev/icons?i=aws,docker,githubactions&theme=light"></picture></td></tr>
+<tr><td><b>AI / Research</b></td><td><picture><source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=py%2Cpytorch&theme=dark"><img alt="Python, PyTorch" height="30" align="absmiddle" src="https://skillicons.dev/icons?i=py,pytorch&theme=light"></picture> &nbsp;<code>+&nbsp;LangChain&nbsp;/&nbsp;RAG</code></td></tr>
+</table>
 
 ## Projects
 
 ### [Safe-walk](https://github.com/safe-waalk/BE)
 
 지도 기반 안전 보행 서비스<br>
-<sub>Team Lead · Backend — 경기도 공공데이터 공모전</sub>
+**Team Lead · Backend** — 경기도 공공데이터 공모전
 
 - CCTV·보안등·안심벨·범죄주의구역·사용자 신고 데이터를 PostGIS에 적재, 좌표 반경 기반 **안전 인프라 집계·지도 레이어·안전점수 API** 제공
 - ORM 없이 `NamedParameterJdbcTemplate`으로 공간 쿼리 직접 작성
 
-<sub>Java 21 · Spring Boot 4 · PostgreSQL + PostGIS (Supabase) · Docker · JUnit 5</sub>
+<code>Java&nbsp;21</code> <code>Spring&nbsp;Boot&nbsp;4</code> <code>PostgreSQL&nbsp;+&nbsp;PostGIS&nbsp;(Supabase)</code> <code>Docker</code> <code>JUnit&nbsp;5</code>
 
 ### [ShiftRhythm](https://github.com/2026-1-midtone/Backend)
 
 교대근무자를 위한 생체리듬 코칭 앱<br>
-<sub>Backend</sub>
+**Backend**
 
 - 근무표 사진을 **Google Document AI OCR**로 인식해 일정 자동 입력 (서비스 계정 impersonation, 키 파일 없음)
 - Testcontainers 기반 MySQL·Redis 통합 테스트, Docker Compose 로컬 환경
 
-<sub>Java 21 · Spring Boot 4 · MySQL · Redis · Docker · Google Document AI</sub>
+<code>Java&nbsp;21</code> <code>Spring&nbsp;Boot&nbsp;4</code> <code>MySQL</code> <code>Redis</code> <code>Docker</code> <code>Google&nbsp;Document&nbsp;AI</code>
 
 ### [OnRoot AI](https://github.com/On-root-AI/BE)
 
 LLM 기반 자격증 학습 플래너<br>
-<sub>Backend</sub>
+**Backend**
 
 - Q-Net 공공데이터 API로 시험 일정을 받아 **Gemini API**로 맞춤 학습 계획 생성
 
-<sub>Java 21 · Spring Boot 3.5 · MySQL · Spring Data JPA · Gemini API</sub>
+<code>Java&nbsp;21</code> <code>Spring&nbsp;Boot&nbsp;3.5</code> <code>MySQL</code> <code>Spring&nbsp;Data&nbsp;JPA</code> <code>Gemini&nbsp;API</code>
 
 ### [PocketCo](https://github.com/KozzilzzilE/Dataset)
 
 AI 피드백 기반 모바일 알고리즘 학습 앱<br>
-<sub>Dataset — 2026 한성대 모바일 캡스톤</sub>
+**Dataset** — 2026 한성대 모바일 캡스톤
 
 - 알고리즘 학습 콘텐츠 **Firestore 데이터 스키마 설계** (topic → notion → code 계층), 샘플 데이터 구축, 스키마 통일 규칙 정리
 
@@ -75,13 +70,15 @@ AI 피드백 기반 모바일 알고리즘 학습 앱<br>
 ### [Drug Recommendation Research](https://github.com/seung-oon/drug-recommendation-research)
 
 MIMIC-III / IV 기반 의약품 추천 모델 재현성 연구 (7개 트랙)<br>
-<sub>seung-oon/drug-recommendation-research · Python · PyTorch · MIMIC-III / IV</sub>
+<sub>seung-oon/drug-recommendation-research</sub>
 
-| 트랙 | 핵심 결과 |
-|:--|:--|
-| **02** · HI-DR (AAAI'25) 재현 → 후보 풀 확장으로 재설계 | Jaccard 0.4550 → **0.5231** <sub>동일 추천 크기 비교</sub> |
-| **04** · SafeDrug 군집별 공정성 감사 | 보정 후 군집 간 Jaccard 격차 **0.061** <sub>p 0.003</sub> |
-| **06** · SafeDrug DDI 제약 감사 | 페널티를 끄면 초과 DDI 격차가 **절반**으로 감소 <sub>4-seed</sub> |
+<code>Python</code> <code>PyTorch</code> <code>MIMIC-III&nbsp;/&nbsp;IV</code>
+
+<table>
+<tr><td><sub>TRACK 02</sub><br><b>HI-DR (AAAI'25) 재현 → 후보 풀 확장으로 재설계</b><br>Jaccard 0.4550 → <b>0.5231</b> <sub>동일 추천 크기 비교</sub></td></tr>
+<tr><td><sub>TRACK 04</sub><br><b>SafeDrug 군집별 공정성 감사</b><br>보정 후 군집 간 Jaccard 격차 <b>0.061</b> <sub>p 0.003</sub></td></tr>
+<tr><td><sub>TRACK 06</sub><br><b>SafeDrug DDI 제약 감사</b><br>페널티를 끄면 초과 DDI 격차가 <b>절반</b>으로 감소 <sub>4-seed</sub></td></tr>
+</table>
 
 <details>
 <summary><b>7개 트랙 요약</b></summary>
@@ -103,12 +100,14 @@ MIMIC-III / IV 기반 의약품 추천 모델 재현성 연구 (7개 트랙)<br>
 ### [DCC 예선](https://github.com/KozzilzzilE/DCC_Problem)
 
 119 신고 전화 음성·전사 데이터 AI 과제 (팀 5인)<br>
-<sub>KozzilzzilE/DCC_Problem · Python · PyTorch · Hugging Face Transformers · scikit-learn · pytest</sub>
+<sub>KozzilzzilE/DCC_Problem</sub>
 
-| 미션 | 결과 |
-|:--|:--|
-| **1 · 신고자 성별 분류**<br><sub>단독 담당</sub> | 정확도 **0.9835** <sub>Wav2Vec2 · Validation 3,640통화</sub> |
-| **3 · 환자 증상 다중 라벨 분류**<br><sub>제출 경로·학습 개선 담당</sub> | Macro F1@0.5 0.5967 → 0.6496 → **0.6546** <sub>기준선 → pos_weight 거듭제곱 → 멀티시드 앙상블 + 블렌드</sub> |
+<code>Python</code> <code>PyTorch</code> <code>Hugging&nbsp;Face&nbsp;Transformers</code> <code>scikit-learn</code> <code>pytest</code>
+
+<table>
+<tr><td><sub>MISSION 1 · 단독 담당</sub><br><b>신고자 성별 분류</b><br>정확도 <b>0.9835</b> <sub>Wav2Vec2 · Validation 3,640통화</sub></td></tr>
+<tr><td><sub>MISSION 3 · 제출 경로·학습 개선 담당</sub><br><b>환자 증상 다중 라벨 분류</b><br>Macro F1@0.5 0.5967 → 0.6496 → <b>0.6546</b> <sub>기준선 → pos_weight 거듭제곱 → 멀티시드 앙상블 + 블렌드</sub></td></tr>
+</table>
 
 <details>
 <summary><b>Mission 1</b> — 조각 단위 학습 → 통화 단위 soft voting</summary>
@@ -140,7 +139,7 @@ MIMIC-III / IV 기반 의약품 추천 모델 재현성 연구 (7개 트랙)<br>
 <br>
 
 <details>
-<summary>GitHub activity</summary>
+<summary><b>GitHub activity</b></summary>
 <br>
 
 <picture>
@@ -149,3 +148,15 @@ MIMIC-III / IV 기반 의약품 추천 모델 재현성 연구 (7개 트랙)<br>
 </picture>
 
 </details>
+
+<p>
+<sub>Contact</sub><br>
+<a href="mailto:rlatmddbs02@gmail.com"><img alt="Email rlatmddbs02@gmail.com" src="https://img.shields.io/badge/rlatmddbs02%40gmail.com-0A66C2?style=flat-square&logo=gmail&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/%EC%8A%B9%EC%9C%A4-%EA%B9%80-87099041a/"><img alt="LinkedIn 김승윤" src="https://img.shields.io/badge/%EA%B9%80%EC%8A%B9%EC%9C%A4-0A66C2?style=flat-square&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTIwLjQ0NyAyMC40NTJoLTMuNTU0di01LjU2OWMwLTEuMzI4LS4wMjctMy4wMzctMS44NTItMy4wMzctMS44NTMgMC0yLjEzNiAxLjQ0NS0yLjEzNiAyLjkzOXY1LjY2N0g5LjM1MVY5aDMuNDE0djEuNTYxaC4wNDZjLjQ3Ny0uOSAxLjYzNy0xLjg1IDMuMzctMS44NSAzLjYwMSAwIDQuMjY3IDIuMzcgNC4yNjcgNS40NTV2Ni4yODZ6TTUuMzM3IDcuNDMzYy0xLjE0NCAwLTIuMDYzLS45MjYtMi4wNjMtMi4wNjUgMC0xLjEzOC45Mi0yLjA2MyAyLjA2My0yLjA2MyAxLjE0IDAgMi4wNjQuOTI1IDIuMDY0IDIuMDYzIDAgMS4xMzktLjkyNSAyLjA2NS0yLjA2NCAyLjA2NXptMS43ODIgMTMuMDE5SDMuNTU1VjloMy41NjR2MTEuNDUyek0yMi4yMjUgMEgxLjc3MUMuNzkyIDAgMCAuNzc0IDAgMS43Mjl2MjAuNTQyQzAgMjMuMjI3Ljc5MiAyNCAxLjc3MSAyNGgyMC40NTFDMjMuMiAyNCAyNCAyMy4yMjcgMjQgMjIuMjcxVjEuNzI5QzI0IC43NzQgMjMuMiAwIDIyLjIyMiAwaC4wMDN6Ii8%2BPC9zdmc%2B"></a><br>
+<sub><a href="#top">↑ back to top</a></sub>
+</p>
+
+<p><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
+  <img alt="" width="100%" src="assets/footer-light.svg">
+</picture></p>

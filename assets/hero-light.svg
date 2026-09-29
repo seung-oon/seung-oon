@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 190" role="img" aria-label="Seungyoon Kim - Backend Developer, Medical AI Research">
+  <style><![CDATA[ .narrow{display:none} @media (max-width:560px){ .wide{display:none} .narrow{display:inline} } ]]></style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#ddf4ff"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0969da"/>
+      <stop offset="1" stop-color="#54aeff"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="8" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.3" fill="#0969da" fill-opacity=".16"/>
+    </pattern>
+    <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="1"/>
+    </linearGradient>
+    <mask id="fadeMask"><rect x="430" y="0" width="400" height="190" fill="url(#fade)"/></mask>
+    <clipPath id="card"><rect x="2" y="2" width="826" height="186" rx="12.5"/></clipPath>
+  </defs>
+  <rect x="1.5" y="1.5" width="827" height="187" rx="13" fill="url(#bg)" stroke="#d0d7de" vector-effect="non-scaling-stroke"/>
+  <g clip-path="url(#card)">
+    <rect x="430" y="0" width="400" height="190" fill="url(#dots)" mask="url(#fadeMask)"/>
+  </g>
+  <g class="wide">
+    <rect x="48" y="44" width="44" height="5" rx="2.5" fill="url(#bar)"/>
+    <path d="M586 110 H660 V88 H712 L720 88 L727 64 L737 112 L744 76 L751 88 H796 V70" fill="none" stroke="#0969da" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" stroke-opacity=".6"/>
+    <circle cx="796" cy="70" r="12" fill="#0969da" fill-opacity=".18"/>
+    <circle cx="796" cy="70" r="6" fill="#0969da"/>
+    <text x="46" y="112" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="58" font-weight="700" letter-spacing="-1" fill="#1f2328">Seungyoon Kim</text>
+    <text x="48" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="25" font-weight="500" fill="#59636e">Backend Developer <tspan fill="#0969da">&#183;</tspan> Medical AI Research</text>
+  </g>
+  <g class="narrow">
+    <rect x="48" y="24" width="60" height="7" rx="3.5" fill="url(#bar)"/>
+    <text x="46" y="106" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="80" font-weight="700" letter-spacing="-1.5" fill="#1f2328">Seungyoon Kim</text>
+    <text x="48" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="34" font-weight="500" fill="#59636e">Backend Developer <tspan fill="#0969da">&#183;</tspan> Medical AI Research</text>
+  </g>
+</svg>
