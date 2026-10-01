@@ -1,169 +1,162 @@
-<p><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
-  <img alt="Seungyoon Kim · Backend Developer · Medical AI Research" width="100%" src="assets/hero-light.svg">
-</picture></p>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg"><img alt="Seungyoon Kim · Backend Developer · Medical AI Research" width="100%" src="assets/hero-light.svg"></picture></p>
 
-한성대학교 컴퓨터공학부 4학년<br>
-추천 모델 **재현·평가 연구**와, 공간 DB·그래프 탐색 기반의 **백엔드**를 만듭니다.
+한⁠성⁠대⁠학⁠교 컴⁠퓨⁠터⁠공⁠학⁠부 4학⁠년<br>
+추⁠천 모⁠델 **재⁠현·평⁠가 연⁠구**와, 공⁠간 DB·그⁠래⁠프 탐⁠색 기⁠반⁠의 **백⁠엔⁠드**를 만⁠듭⁠니⁠다.
 
-✉&nbsp;[rlatmddbs02@gmail.com](mailto:rlatmddbs02@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/%EC%8A%B9%EC%9C%A4-%EA%B9%80-87099041a/) &nbsp;·&nbsp; [All repositories&nbsp;↗](https://github.com/seung-oon?tab=repositories)
+[Email](mailto:rlatmddbs02@gmail.com)&nbsp;· [LinkedIn](https://www.linkedin.com/in/%EC%8A%B9%EC%9C%A4-%EA%B9%80-87099041a/)&nbsp;· [All&nbsp;repositories&nbsp;↗](https://github.com/seung-oon?tab=repositories)
 
 <p>
-<a href="#research"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stat-hidr-dark.svg">
-  <img alt="HI-DR 재현 후 후보 풀 확장 재설계, Jaccard 0.4550에서 0.5231 (동일 추천 크기, 5-seed)" width="270" src="assets/stat-hidr-light.svg">
-</picture></a>
-<a href="#dcc-예선"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stat-dcc-dark.svg">
-  <img alt="DCC 예선 신고자 성별 분류 정확도 0.9835 (Wav2Vec2, Validation 3,640통화)" width="270" src="assets/stat-dcc-light.svg">
-</picture></a>
-<a href="#projects"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/stat-runify-dark.svg">
-  <img alt="Runify 러닝 코스 생성 서버, Kafka와 pgRouting, 서버 전담 구현" width="270" src="assets/stat-runify-light.svg">
-</picture></a>
+<a href="#research"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/stat-hidr-dark.svg"><img alt="HI-DR 재현과 확장 시도, 후보 풀 재설계로 Jaccard 0.4550에서 0.5231 (방문당 추천 약 20개로 맞춤, 재점수화 헤드 5-seed)" width="280" src="assets/stat-hidr-light.svg"></picture></a>
+<a href="#dcc-예선"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/stat-dcc-dark.svg"><img alt="DCC 예선 신고자 성별 분류 정확도 0.9835 (Wav2Vec2, Validation 3,640통화)" width="280" src="assets/stat-dcc-light.svg"></picture></a>
+<a href="#runify"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/stat-runify-dark.svg"><img alt="Runify 러닝 코스 생성 서버, Kafka와 pgRouting, 서버 전담 구현" width="280" src="assets/stat-runify-light.svg"></picture></a>
 </p>
 
-[Research](#research) &nbsp;·&nbsp; [Projects](#projects) &nbsp;·&nbsp; [Tech&nbsp;Stack](#tech-stack) &nbsp;·&nbsp; [Others](#others)
+[Research](#research)&nbsp;&nbsp;·&nbsp; [Projects](#projects)&nbsp;&nbsp;·&nbsp; [Tech&nbsp;Stack](#tech-stack)&nbsp;&nbsp;·&nbsp; [Others](#others)
 
 ## Research
 
 ### Drug Recommendation Research
 
-MIMIC-III / IV 기반 의약품 추천 모델 재현성 연구 · 7개 트랙 · [repo&nbsp;↗](https://github.com/seung-oon/drug-recommendation-research)
+MIMIC-III / IV 기⁠반 의⁠약⁠품 추⁠천 모⁠델 재⁠현⁠성 연⁠구, 7개 트⁠랙<br>
+[drug-recommendation-research&nbsp;↗](https://github.com/seung-oon/drug-recommendation-research)
 
 <code>Python</code> <code>PyTorch</code> <code>MIMIC-III&nbsp;/&nbsp;IV</code>
 
 > [!NOTE]
-> 원본·행 단위 데이터는 포함하지 않고 코드·보고서·집계 결과만 공개합니다 (PhysioNet DUA 준수).
+> 원⁠본·행 단⁠위 데⁠이⁠터⁠는 포⁠함⁠하⁠지 않⁠고 코⁠드·보⁠고⁠서·집⁠계 결⁠과⁠만 공⁠개⁠합⁠니⁠다.
 
-<table width="100%">
+<table>
 <tr>
-<td width="140" align="center"><b>0.5231</b><br>Jaccard</td>
-<td><sub>TRACK 02</sub><br><b>HI-DR (AAAI'25) 재현,<br>후보 풀 확장으로 재설계</b><br>기존 0.4550 → 0.5231<br>동일 추천 크기 · 5&#8209;seed</td>
+<td width="96" align="center"><b>0.5231</b><br>Jaccard</td>
+<td width="900"><b>Track 02 · HI-DR (AAAI'25) 재⁠현⁠과 확⁠장 시⁠도</b><br>사⁠후 필⁠터 가⁠설⁠을 접⁠고 후⁠보 풀⁠을 재⁠설⁠계<br>HI-DR 빔 출⁠력 0.4550 → 0.5231<br>방⁠문⁠당 추⁠천 약 20개⁠로 맞⁠춤 · 재⁠점⁠수⁠화 헤⁠드 5&#8209;seed</td>
 </tr>
 <tr>
-<td width="140" align="center"><b>0.061</b><br>군집 간 격차</td>
-<td><sub>TRACK 04</sub><br><b>SafeDrug 군집별 공정성 감사</b><br>보정 후 Jaccard 격차 · p&nbsp;0.003</td>
+<td width="96" align="center"><b>0.061</b><br>군⁠집 간 격⁠차</td>
+<td width="900"><b>Track 04 · SafeDrug 군⁠집⁠별 공⁠정⁠성 감⁠사</b><br>보⁠정 후 Jaccard 격⁠차 · 4시⁠드 풀⁠링<br>p&nbsp;0.016 (k 선⁠택 보⁠정)</td>
 </tr>
 <tr>
-<td width="140" align="center"><b>절반</b><br>초과 DDI 격차</td>
-<td><sub>TRACK 06</sub><br><b>SafeDrug DDI 제약 감사</b><br>페널티를 끄면 초과 DDI 격차가 절반으로 · 4&#8209;seed</td>
+<td width="96" align="center"><b>절⁠반</b><br>초⁠과 DDI 격⁠차</td>
+<td width="900"><b>Track 06 · SafeDrug DDI 제⁠약 감⁠사</b><br>페⁠널⁠티⁠를 끄⁠면 군⁠집(k=10) 초⁠과 DDI 격⁠차<br>0.030 → 0.016 · 4시⁠드 모⁠두 감⁠소</td>
 </tr>
 </table>
 
 <details>
-<summary><b>트랙 01–07 전체 보기</b></summary>
+<summary><b>트⁠랙 01–07 전⁠체 보⁠기</b></summary>
 
 <br>
 
-| 트랙 | 요지 |
-| --- | --- |
-| **01** SOTA 논문 리뷰 | MR-DTR (WWW'25), CausalMed (CIKM'24), SubRec (NeurIPS'25) 정독, 데이터 자원·전처리 비교 |
-| **02** HI-DR 재현 | "과다 추천을 걸러야 한다"는 1차 가설이 틀렸음을 확인하고, 사후 필터 대신 **이력 기반 후보 풀 확장**으로 재설계 (5-seed). 실제 운영 임계값 기준 Jaccard는 약 0.503 |
-| **03** SafeDrug + 장기 기능 | ICD-9/10 통합 MIMIC-IV 레코드 재구축, 신·간 기능 지표 주입. 파이프라인 완성, GPU 스모크 테스트 단계 |
-| **04** 군집별 공정성 감사 | 진단 텍스트로 방문을 군집화해 정확도 격차 검정. 재현 test Jaccard 0.508~0.515, precision 격차가 recall 격차의 2배. 개입 9종 시험 |
-| **05** 급성 attention | 방문 표현을 입원 시점 텍스트 attention으로 교체. Jaccard 0.518까지 상승, 군집 격차는 그대로 |
-| **06** DDI 제약 감사 | SafeDrug DDI 행렬이 TWOSIDES 비특이적 부작용 40종에 걸린 쌍이라 가이드라인 병용까지 상호작용으로 표시됨을 확인. 페널티를 끄면 초과 DDI 격차 절반 (4-seed) |
-| **07** 급성/만성 사전검증 | 가설을 구현 전에 검증해 반증하고 방향 재설정. MIMIC-IV에서 kNN 검색 + 직전 처방 기준선(0.494)이 SafeDrug·GAMENet·MICRON(0.440~0.449)을 앞섬 |
+- **01 · SOTA 논⁠문 리⁠뷰** — MR-DTR (WWW'25), CausalMed (CIKM'24), SubRec (NeurIPS'25) 정⁠독, 데⁠이⁠터 자⁠원·전⁠처⁠리 방⁠식 비⁠교
+- **02 · HI-DR 재⁠현⁠과 확⁠장 시⁠도** — 처⁠음 세⁠운 "모⁠델⁠이 과⁠다 추⁠천⁠하⁠니 걸⁠러⁠야 한⁠다"는 사⁠후 필⁠터 가⁠설⁠이 틀⁠렸⁠음⁠을 확⁠인(HI-DR 방⁠문⁠당 후⁠보 20.07, 정⁠답 20.16)하⁠고, 이⁠력 기⁠반 후⁠보 풀 확⁠장⁠으⁠로 재⁠설⁠계. 운⁠영 임⁠계⁠값 기⁠준 Jaccard는 약 0.503
+- **03 · SafeDrug + 장⁠기 기⁠능** — ICD-9/10 통⁠합 MIMIC-IV 레⁠코⁠드 재⁠구⁠축, 신·간 기⁠능 지⁠표 주⁠입. GPU 스⁠모⁠크 테⁠스⁠트 단⁠계
+- **04 · 군⁠집⁠별 공⁠정⁠성 감⁠사** — 진⁠단 텍⁠스⁠트⁠로 방⁠문⁠을 군⁠집⁠화⁠해 정⁠확⁠도 격⁠차 검⁠정. 재⁠현 test Jaccard 0.508~0.515, precision 격⁠차⁠가 recall 격⁠차⁠의 약 2배, 개⁠입 9종(6계⁠열) 시⁠험
+- **05 · 급⁠성 attention** — 방⁠문 표⁠현⁠을 입⁠원 시⁠점 텍⁠스⁠트 attention으⁠로 교⁠체. 시⁠드 0 기⁠준 Jaccard 0.508 → 0.518 (4시⁠드 평⁠균 0.511 → 0.515), 군⁠집 격⁠차⁠는 줄⁠지 않⁠음
+- **06 · DDI 제⁠약 감⁠사** — SafeDrug DDI 행⁠렬⁠이 TWOSIDES에⁠서 가⁠장 드⁠문 부⁠작⁠용 40종⁠에 걸⁠린 쌍⁠이⁠라, 스⁠타⁠틴–질⁠산⁠염 같⁠은 가⁠이⁠드⁠라⁠인 병⁠용⁠까⁠지 상⁠호⁠작⁠용⁠으⁠로 표⁠시⁠됨⁠을 확⁠인 (배⁠포 337쌍 정⁠확 재⁠현)
+- **07 · 급⁠성/만⁠성 사⁠전⁠검⁠증** — 가⁠설⁠을 구⁠현 전⁠에 검⁠증⁠해 반⁠증⁠하⁠고 방⁠향 재⁠설⁠정 (ICD 9→10 전⁠환 구⁠간⁠을 뺀 재⁠계⁠산⁠은 남⁠음). MIMIC-IV test 전⁠이⁠에⁠서 kNN 검⁠색 + 직⁠전 처⁠방 기⁠준⁠선 0.494가 SafeDrug, GAMENet, MICRON (0.440~0.449)보⁠다 높⁠음. 동⁠등 튜⁠닝 비⁠교⁠는 남⁠은 과⁠제
 
 </details>
 
 ### DCC 예선
 
-119 신고 전화 음성·전사 데이터 AI 과제 · 팀 5인 · 2026.09 · [repo&nbsp;↗](https://github.com/KozzilzzilE/DCC_Problem)
+119 신⁠고 전⁠화 음⁠성·전⁠사 데⁠이⁠터 AI 과⁠제<br>
+팀&nbsp;5인&nbsp;· 2026.09&nbsp;· [DCC_Problem&nbsp;↗](https://github.com/KozzilzzilE/DCC_Problem)
 
 <code>Python</code> <code>PyTorch</code> <code>Hugging&nbsp;Face&nbsp;Transformers</code> <code>scikit-learn</code> <code>pytest</code>
 
-<table width="100%">
+<table>
 <tr>
-<td width="140" align="center"><b>0.9835</b><br>정확도</td>
-<td><sub>MISSION 1 · 단독 담당</sub><br><b>신고자 성별 분류</b><br>Wav2Vec2 · Validation 3,640통화</td>
+<td width="96" align="center"><b>0.9835</b><br>정⁠확⁠도</td>
+<td width="900"><b>Mission 1 · 신⁠고⁠자 성⁠별 분⁠류</b><br>구⁠현·제⁠출 단⁠독 담⁠당<br>Wav2Vec2 · Validation 3,640통⁠화</td>
 </tr>
 <tr>
-<td width="140" align="center"><b>0.6546</b><br>Macro F1@0.5</td>
-<td><sub>MISSION 3 · 제출 경로·학습 개선 담당</sub><br><b>환자 증상 다중 라벨 분류</b><br>기준선 0.5967<br>→ pos_weight 거듭제곱 0.6496<br>→ 앙상블 + 블렌드 0.6546</td>
+<td width="96" align="center"><b>0.6593</b><br>Macro F1@0.5</td>
+<td width="900"><b>Mission 3 · 환⁠자 증⁠상 다⁠중 라⁠벨 분⁠류</b><br>제⁠출 경⁠로·학⁠습 개⁠선 담⁠당<br>기⁠준⁠선&nbsp;0.5967 → pos_weight 거⁠듭⁠제⁠곱&nbsp;0.6496 → 최⁠종&nbsp;번⁠들&nbsp;0.6593<br>모⁠두 Validation 3,640건 기⁠준</td>
 </tr>
 </table>
 
 <details>
-<summary><b>담당 내용 자세히</b></summary>
+<summary><b>담⁠당 내⁠용 자⁠세⁠히</b></summary>
 
 <br>
 
-**Mission 1** — 조각 단위 학습 → 통화 단위 soft voting
+**Mission 1** — 조⁠각 단⁠위 학⁠습 → 통⁠화 단⁠위 soft voting
 
-- 통화 음성에서 신고자 발화만 잘라 **조각 단위 학습 → 통화 단위 soft voting** 구조 설계 (조각 정확도 0.88 → 통화 정확도 0.98)
-- ResNet50(log-mel)·Wav2Vec2·전화 음성 사전학습 모델 3갈래 비교 하네스 구축, SpecAugment·지식 증류로 ResNet 개선
-- 모델 간 오류 겹침 분석으로 앙상블 한계 확인
-- 대회 규정(결정 임계값 0.5 고정)에 맞춰 제출 경로 정비, 오프라인 로딩·VRAM 페이징 등 1회 실행 채점 대비
+- 통⁠화 음⁠성⁠에⁠서 신⁠고⁠자 발⁠화⁠만 잘⁠라 **조⁠각 단⁠위 학⁠습 → 통⁠화 단⁠위 soft voting** 구⁠조 설⁠계 (조⁠각 정⁠확⁠도 0.88~0.90 → 통⁠화 정⁠확⁠도 0.98)
+- ResNet50(log-mel)·Wav2Vec2·전⁠화 음⁠성 사⁠전⁠학⁠습 모⁠델 3갈⁠래 비⁠교 하⁠네⁠스 구⁠축. SpecAugment·지⁠식 증⁠류⁠로 ResNet 개⁠선⁠을 시⁠도⁠했⁠지⁠만 차⁠이⁠는 노⁠이⁠즈 범⁠위 (통⁠화 0.9791 → 0.9824)
+- 모⁠델 간 오⁠류 겹⁠침 분⁠석⁠으⁠로 앙⁠상⁠블 한⁠계 확⁠인
+- 대⁠회 규⁠정(결⁠정 임⁠계⁠값 0.5 고⁠정)에 맞⁠춰 제⁠출 경⁠로 정⁠비, 오⁠프⁠라⁠인 로⁠딩·VRAM 페⁠이⁠징 등 1회 실⁠행 채⁠점 대⁠비
 
-**Mission 3** — 제출 추론 경로 구현, 임계값 대신 손실로 보정
+**Mission 3** — 제⁠출 추⁠론 경⁠로 구⁠현, 임⁠계⁠값 대⁠신 손⁠실⁠로 보⁠정
 
-- 더미 상태였던 **제출 추론 경로 구현** — 학습 설정을 체크포인트에서 복원해 학습-추론 불일치 차단, 임계값 0.5 고정을 코드로 강제
-- 임계값 대신 손실로 보정 — 기존 pos_weight는 과보정으로 Macro F1 0.6189에 그쳐, `pos_weight` 거듭제곱 옵션을 추가해 과보정을 줄임
-- KLUE-RoBERTa 멀티시드 앙상블 + **TF-IDF·LogisticRegression 블렌드**로 제출 번들 구성
-- 발화 경계 전처리 모드, 적대적 리뷰 반영(자기완결 번들, 인코딩·BOM·NaN 처리), 규정 준수 pytest 회귀 테스트 추가
+- 더⁠미 상⁠태⁠였⁠던 **제⁠출 추⁠론 경⁠로 구⁠현**. 학⁠습 설⁠정⁠을 체⁠크⁠포⁠인⁠트⁠에⁠서 복⁠원⁠해 학⁠습-추⁠론 불⁠일⁠치⁠를 막⁠고, 임⁠계⁠값 0.5 고⁠정⁠을 코⁠드⁠로 강⁠제
+- 임⁠계⁠값 대⁠신 손⁠실⁠로 보⁠정. 기⁠존 pos_weight는 과⁠보⁠정⁠으⁠로 Macro F1 0.6189에 그⁠쳐, `pos_weight` 거⁠듭⁠제⁠곱 옵⁠션⁠을 추⁠가⁠해 과⁠보⁠정⁠을 줄⁠임 (0.6496)
+- KLUE-RoBERTa TAPT·LLRD 4시⁠드 앙⁠상⁠블 + **TF-IDF·LogisticRegression 블⁠렌⁠드**로 최⁠종 번⁠들 구⁠성 (0.6593). 블⁠렌⁠드 가⁠중⁠치⁠는 Validation을 보⁠며 골⁠라 다⁠소 낙⁠관⁠적⁠인 값
+- 적⁠대⁠적 리⁠뷰 반⁠영(자⁠기⁠완⁠결 번⁠들, 인⁠코⁠딩·BOM·NaN 처⁠리), 규⁠정 준⁠수 pytest 회⁠귀 테⁠스⁠트 추⁠가
 
 </details>
 
 ## Projects
 
-### Runify · 러닝 코스 생성 서버
+### Runify
 
-그린 도형을 실제 도보 도로망 위의 러닝 코스로 바꿔 주는 서비스<br>
-**Backend · 코스 생성 서버 전담** · 팀 프로젝트 · 2026.08 · [repo&nbsp;↗](https://github.com/KozzilzzilE/Running-Sketch-Server)
+러⁠닝 코⁠스 생⁠성 서⁠버 · 그⁠린 도⁠형⁠을 실⁠제 도⁠보 도⁠로⁠망 위⁠의 러⁠닝 코⁠스⁠로 바⁠꿔 주⁠는 서⁠비⁠스<br>
+**Backend · 코⁠스 생⁠성 서⁠버 전⁠담**&nbsp;· 팀 프⁠로⁠젝⁠트&nbsp;· 2026.08<br>
+[Running-Sketch-Server&nbsp;↗](https://github.com/KozzilzzilE/Running-Sketch-Server) <sub>(저⁠장⁠소 내 이⁠름: ArtRun Route Worker)</sub>
 
-- 도형 정규화 → 배치 탐색 → 도로 스냅 → `pgr_dijkstra` 스티칭 → 닮음도 채점·보정까지 **계산기하 + 그래프 탐색 파이프라인** 구현 (강남·서초 OSM 실그래프)
-- 계단 경로가 곧은 경로보다 높게 채점되는 닮음도 결함을 **측정으로 확인**(0.9015 대 0.784)하고 채점 항을 추가해 해결. 효과가 없던 시도는 근거를 남기고 되돌림
-- Kafka 요청 소비 → 결과 이벤트 발행. 수동 커밋·재시도 후 DLT, `generationId` 멱등, 정체 작업 자동 복구, Testcontainers 통합 테스트
-- 코너가 많은 도형 등 알려진 한계는 이슈와 문서에 기록
+- 도⁠형 정⁠규⁠화 → 배⁠치 탐⁠색 → 도⁠로 스⁠냅 → `pgr_dijkstra` 스⁠티⁠칭 → 닮⁠음⁠도 채⁠점·보⁠정⁠까⁠지 **계⁠산⁠기⁠하 + 그⁠래⁠프 탐⁠색 파⁠이⁠프⁠라⁠인** 구⁠현 (강⁠남·서⁠초 약 8×8km OSM 도⁠보⁠망)
+- 4,000m V자 입⁠력⁠에⁠서 코⁠너 26개⁠짜⁠리 계⁠단 코⁠스(0.9015)가 곧⁠은 코⁠스(0.784)보⁠다 높⁠게 채⁠점⁠되⁠던 결⁠함⁠을 **실⁠측⁠으⁠로 확⁠인**하⁠고, 꺾⁠임·방⁠문 항⁠을 추⁠가⁠해 계⁠단 코⁠스⁠가 발⁠행 관⁠문⁠에⁠서 걸⁠러⁠지⁠도⁠록 보⁠정 (재⁠측⁠정 3/3)
+- 오⁠히⁠려 나⁠빠⁠진 시⁠도(경⁠유⁠점 간⁠격 600m, 측⁠정 35건 중 발⁠행 24 → 15건)는 측⁠정 근⁠거⁠와 함⁠께 되⁠돌⁠림
+- Kafka 요⁠청 소⁠비 → 결⁠과 이⁠벤⁠트 발⁠행. 수⁠동 커⁠밋, 재⁠시⁠도 후 DLT, `generationId` 멱⁠등 처⁠리, 정⁠체 작⁠업(RUNNING) 자⁠동 복⁠귀, Testcontainers 통⁠합 테⁠스⁠트
+- 한⁠계⁠도 기⁠록: 여⁠러 획 그⁠림 미⁠지⁠원⁠은 이⁠슈 #1에, 코⁠너⁠가 많⁠은 도⁠형(왕⁠관 0/5)은 측⁠정 문⁠서⁠에
 
-<code>Java&nbsp;21</code> <code>Spring&nbsp;Boot&nbsp;4</code> <code>Kafka</code> <code>PostgreSQL&nbsp;+&nbsp;PostGIS&nbsp;+&nbsp;pgRouting</code> <code>Flyway</code> <code>Testcontainers</code> <code>Docker</code>
+<code>Java&nbsp;21</code> <code>Spring&nbsp;Boot&nbsp;4</code> <code>Kafka</code> <code>PostgreSQL</code> <code>PostGIS</code> <code>pgRouting</code> <code>Flyway</code> <code>Testcontainers</code> <code>Docker</code>
 
-### Safe-walk · 지도 기반 안전 보행 서비스
+### Safe-walk
 
-**Team Lead · Backend** · 경기도 공공데이터 공모전 · 2026.07 · [repo&nbsp;↗](https://github.com/safe-waalk/BE)
+지⁠도 기⁠반 안⁠전 보⁠행 서⁠비⁠스<br>
+**Team Lead · Backend**&nbsp;· 경⁠기⁠도 공⁠공⁠데⁠이⁠터 공⁠모⁠전&nbsp;· 2026.07<br>
+[safe-waalk/BE&nbsp;↗](https://github.com/safe-waalk/BE)
 
-- CCTV·보안등·안심벨·범죄주의구역·사용자 신고 데이터를 PostGIS에 적재, 좌표 반경 기반 **안전 인프라 집계·지도 레이어·안전점수 API** 제공
-- ORM 없이 `NamedParameterJdbcTemplate`으로 공간 쿼리 직접 작성
+- CCTV·보⁠안⁠등·안⁠심⁠벨·범⁠죄⁠주⁠의⁠구⁠역·사⁠용⁠자 신⁠고 테⁠이⁠블⁠을 PostGIS로 설⁠계⁠하⁠고, 좌⁠표 반⁠경 기⁠반 **안⁠전 인⁠프⁠라 집⁠계·지⁠도 레⁠이⁠어·안⁠전⁠점⁠수 API** 구⁠현
+- ORM 없⁠이 `NamedParameterJdbcTemplate`으⁠로 공⁠간 쿼⁠리 직⁠접 작⁠성
 
-<code>Java&nbsp;21</code> <code>Spring&nbsp;Boot&nbsp;4</code> <code>PostgreSQL&nbsp;+&nbsp;PostGIS&nbsp;(Supabase)</code> <code>Docker</code> <code>JUnit&nbsp;5</code>
+<code>Java&nbsp;21</code> <code>Spring&nbsp;Boot&nbsp;4</code> <code>PostgreSQL</code> <code>PostGIS</code> <code>Supabase</code> <code>Docker</code> <code>JUnit&nbsp;5</code>
 
-### ShiftRhythm · 교대근무자 생체리듬 코칭 앱
+### ShiftRhythm
 
-**Backend** · 2026.08 · [repo&nbsp;↗](https://github.com/2026-1-midtone/Backend)
+교⁠대⁠근⁠무⁠자⁠를 위⁠한 생⁠체⁠리⁠듬 코⁠칭 앱<br>
+**Backend**&nbsp;· 2026.08<br>
+[2026-1-midtone/Backend&nbsp;↗](https://github.com/2026-1-midtone/Backend)
 
-- 근무표 사진을 **Google Document AI OCR**로 인식해 일정 자동 입력 (서비스 계정 impersonation, 키 파일 없음)
-- Testcontainers 기반 MySQL·Redis 통합 테스트, Docker Compose 로컬 환경
+- 근⁠무⁠표 사⁠진⁠을 **Google Document AI OCR**로 인⁠식⁠해 일⁠정 초⁠안 자⁠동 입⁠력 (서⁠비⁠스 계⁠정 impersonation, 키 파⁠일 없⁠음)
+- Testcontainers 기⁠반 MySQL·Redis 통⁠합 테⁠스⁠트, Docker Compose 로⁠컬 환⁠경
 
 <code>Java&nbsp;21</code> <code>Spring&nbsp;Boot&nbsp;4</code> <code>MySQL</code> <code>Redis</code> <code>Docker</code> <code>Google&nbsp;Document&nbsp;AI</code>
 
-### OnRoot AI · LLM 기반 자격증 학습 플래너
+### OnRoot AI
 
-**Backend** · 2026.05 · [repo&nbsp;↗](https://github.com/On-root-AI/BE)
+LLM 기⁠반 자⁠격⁠증 학⁠습 플⁠래⁠너<br>
+**Backend**&nbsp;· 2026.05<br>
+[On-root-AI/BE&nbsp;↗](https://github.com/On-root-AI/BE)
 
-- Q-Net 공공데이터 API로 시험 일정을 받아 **Gemini API**로 맞춤 학습 계획 생성
+- Q-Net 공⁠공⁠데⁠이⁠터 API로 시⁠험 일⁠정⁠을 받⁠아 **Gemini API**로 맞⁠춤 학⁠습 계⁠획 생⁠성
 
 <code>Java&nbsp;21</code> <code>Spring&nbsp;Boot&nbsp;3.5</code> <code>MySQL</code> <code>Spring&nbsp;Data&nbsp;JPA</code> <code>Gemini&nbsp;API</code>
 
 ## Tech Stack
 
-<table width="100%">
-<tr><td width="130"><b>Backend</b></td><td><code>Java</code> <code>Spring&nbsp;Boot</code> <code>MySQL</code> <code>PostgreSQL&nbsp;+&nbsp;PostGIS&nbsp;+&nbsp;pgRouting</code> <code>Redis</code> <code>Kafka</code></td></tr>
-<tr><td width="130"><b>Infra</b></td><td><code>AWS</code> <code>GCP</code> <code>Docker</code> <code>GitHub&nbsp;Actions</code></td></tr>
-<tr><td width="130"><b>AI / Research</b></td><td><code>Python</code> <code>PyTorch</code> <code>LangChain&nbsp;/&nbsp;RAG</code></td></tr>
+<table>
+<tr><td width="96"><b>Backend</b></td><td width="900"><code>Java</code> <code>Spring&nbsp;Boot</code> <code>MySQL</code> <code>PostgreSQL</code> <code>PostGIS</code> <code>pgRouting</code> <code>Redis</code> <code>Kafka</code></td></tr>
+<tr><td width="96"><b>Infra</b></td><td width="900"><code>AWS</code> <code>GCP</code> <code>Docker</code> <code>GitHub&nbsp;Actions</code></td></tr>
+<tr><td width="96"><b>AI · ML</b></td><td width="900"><code>Python</code> <code>PyTorch</code> <code>LangChain&nbsp;/&nbsp;RAG</code></td></tr>
 </table>
 
 ## Others
 
-- **[NextPerson](https://github.com/seung-oon/NextPerson)** — 은행 창구 업무 시뮬레이션 게임 (Unity 6). *Papers, Please* 구조에 금융 규제 판단을 적용
-- **[멋쟁이사자처럼 14기 Backend 1팀](https://github.com/HSU-Likelion-Backend-14th/Team-1)** — Spring 기반 백엔드 과제 수행 · 2026.03–04
+- **[NextPerson](https://github.com/seung-oon/NextPerson)** — 은⁠행 창⁠구 업⁠무 시⁠뮬⁠레⁠이⁠션 게⁠임 (Unity 6). *Papers, Please* 구⁠조⁠에 금⁠융 규⁠제 판⁠단⁠을 적⁠용
+- **[멋⁠쟁⁠이⁠사⁠자⁠처⁠럼 14기 Backend 1팀](https://github.com/HSU-Likelion-Backend-14th/Team-1)** — Spring 기⁠반 백⁠엔⁠드 과⁠제 수⁠행 · 2026.03–05
 
 <br>
 
-<sub>[↑ back to top](#top)</sub>
+[↑ back to top](#top)
 
-<p><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg">
-  <img alt="" width="100%" src="assets/footer-light.svg">
-</picture></p>
+<p><picture><source media="(prefers-color-scheme: dark)" srcset="assets/footer-dark.svg"><img alt="" width="100%" src="assets/footer-light.svg"></picture></p>
