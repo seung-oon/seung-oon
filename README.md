@@ -68,8 +68,8 @@ MIMIC-III / IV 기⁠반 의⁠약⁠품 추⁠천 모⁠델 재⁠현⁠성 연
 <td width="900"><b>Mission 1 · 신⁠고⁠자 성⁠별 분⁠류</b><br>구⁠현⁠·제⁠출 단⁠독 담⁠당<br>Wav2Vec2 · Validation 3,640⁠통⁠화</td>
 </tr>
 <tr>
-<td width="96" align="center"><b>0.6593</b><br>F1@0.5</td>
-<td width="900"><b>Mission 3 · 환⁠자 증⁠상 다⁠중 라⁠벨 분⁠류</b><br>제⁠출 경⁠로⁠·학⁠습 개⁠선 담⁠당<br>기⁠준⁠선&nbsp;0.5967 → pos_weight 거⁠듭⁠제⁠곱&nbsp;0.6496 → 최⁠종&nbsp;번⁠들&nbsp;0.6593<br>모⁠두 Validation 3,640⁠건 기⁠준</td>
+<td width="96" align="center"><b>0.6599</b><br>F1@0.5</td>
+<td width="900"><b>Mission 3 · 환⁠자 증⁠상 다⁠중 라⁠벨 분⁠류</b><br>제⁠출 경⁠로⁠·학⁠습 개⁠선 담⁠당<br>기⁠준⁠선&nbsp;0.5967 → pos_weight 거⁠듭⁠제⁠곱&nbsp;0.6496 → 제⁠출&nbsp;번⁠들&nbsp;0.6599<br>제⁠출 설⁠정⁠은 Training 내⁠부 dev로 결⁠정, Validation은 마⁠지⁠막 1⁠회 확⁠인</td>
 </tr>
 </table>
 
@@ -89,7 +89,7 @@ MIMIC-III / IV 기⁠반 의⁠약⁠품 추⁠천 모⁠델 재⁠현⁠성 연
 
 - 더⁠미 상⁠태⁠였⁠던 **제⁠출 추⁠론 경⁠로 구⁠현**. 학⁠습 설⁠정⁠을 체⁠크⁠포⁠인⁠트⁠에⁠서 복⁠원⁠해 학⁠습-추⁠론 불⁠일⁠치⁠를 막⁠고, 임⁠계⁠값 0.5 고⁠정⁠을 코⁠드⁠로 강⁠제
 - 임⁠계⁠값 대⁠신 손⁠실⁠로 보⁠정. 기⁠존 pos_weight는 과⁠보⁠정⁠으⁠로 Macro F1 0.6189⁠에 그⁠쳐, `pos_weight` 거⁠듭⁠제⁠곱 옵⁠션⁠을 추⁠가⁠해 과⁠보⁠정⁠을 줄⁠임 (0.6496)
-- KLUE-RoBERTa TAPT·LLRD 4⁠시⁠드 앙⁠상⁠블 + **TF-IDF·LogisticRegression 블⁠렌⁠드**로 최⁠종 번⁠들 구⁠성 (0.6593). 블⁠렌⁠드 가⁠중⁠치⁠는 Validation을 보⁠며 골⁠라 다⁠소 낙⁠관⁠적⁠인 값
+- 주⁠최 측 답⁠변⁠(09-30)⁠에 맞⁠춰 p·레⁠시⁠피⁠·저⁠장 epoch·앙⁠상⁠블 구⁠성⁠을 **Training 내⁠부 dev로 다⁠시 결⁠정** (선⁠택 규⁠칙⁠을 결⁠과 전⁠에 커⁠밋⁠해 사⁠전 등⁠록). 최⁠종 번⁠들⁠은 KLUE-RoBERTa TAPT·LLRD 4⁠시⁠드 앙⁠상⁠블⁠이⁠고, TF-IDF 블⁠렌⁠드⁠는 dev에⁠서 이⁠득⁠이 없⁠어 제⁠외 (Validation 0.6599)
 - 적⁠대⁠적 리⁠뷰 반⁠영⁠(자⁠기⁠완⁠결 번⁠들, 인⁠코⁠딩⁠·BOM·NaN 처⁠리), 규⁠정 준⁠수 pytest 회⁠귀 테⁠스⁠트 추⁠가
 
 </details>
