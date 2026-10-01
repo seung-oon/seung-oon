@@ -6,7 +6,7 @@
 [Email](mailto:rlatmddbs02@gmail.com)&nbsp;· [LinkedIn](https://www.linkedin.com/in/%EC%8A%B9%EC%9C%A4-%EA%B9%80-87099041a/)&nbsp;· [All&nbsp;repositories&nbsp;↗](https://github.com/seung-oon?tab=repositories)
 
 <p>
-<a href="#user-content-research"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/stat-hidr-dark.svg"><img alt="HI-DR 재현과 확장 시도, 후보 풀 재설계로 Jaccard 0.4550에서 0.5231 (방문당 추천 약 20개로 맞춤, 재점수화 헤드 5-seed)" width="270" src="assets/stat-hidr-light.svg"></picture></a>
+<a href="#user-content-research"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/stat-hidr-dark.svg"><img alt="HI-DR 재현과 확장 시도, 후보 풀 재설계로 현재 방문 기준 Jaccard 0.4550에서 0.5231 (방문당 추천 약 20개로 맞춤, 재점수화 헤드 5-seed)" width="270" src="assets/stat-hidr-light.svg"></picture></a>
 <a href="#user-content-dcc-예선"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/stat-dcc-dark.svg"><img alt="DCC 예선 신고자 성별 분류 정확도 0.9835 (Wav2Vec2, Validation 3,640통화)" width="270" src="assets/stat-dcc-light.svg"></picture></a>
 <a href="#user-content-runify"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/stat-runify-dark.svg"><img alt="Runify 러닝 코스 생성 서버, Kafka와 pgRouting, 서버 전담 구현" width="270" src="assets/stat-runify-light.svg"></picture></a>
 </p>
@@ -28,7 +28,7 @@ MIMIC-III / IV 기⁠반 의⁠약⁠품 추⁠천 모⁠델 재⁠현⁠성 연
 <table>
 <tr>
 <td width="96" align="center"><b>0.5231</b><br>Jaccard</td>
-<td width="900"><b>Track 02 · HI-DR (AAAI'25) 재⁠현⁠과 확⁠장 시⁠도</b><br>사⁠후 필⁠터 가⁠설⁠을 접⁠고 후⁠보 풀⁠을 재⁠설⁠계<br>HI-DR 빔 출⁠력 0.4550 → 0.5231<br>방⁠문⁠당 추⁠천 약 20⁠개⁠로 맞⁠춤 · 재⁠점⁠수⁠화 헤⁠드 5&#8209;seed</td>
+<td width="900"><b>Track 02 · HI-DR (AAAI'25) 재⁠현⁠과 확⁠장 시⁠도</b><br>사⁠후 필⁠터 가⁠설⁠을 접⁠고 후⁠보 풀⁠을 재⁠설⁠계<br>현⁠재 방⁠문 기⁠준, HI-DR 빔 출⁠력 0.4550 → 0.5231<br>방⁠문⁠당 추⁠천 약 20⁠개⁠로 맞⁠춤 · 재⁠점⁠수⁠화 헤⁠드 5&#8209;seed</td>
 </tr>
 <tr>
 <td width="96" align="center"><b>0.061</b><br>격⁠차</td>
@@ -46,7 +46,7 @@ MIMIC-III / IV 기⁠반 의⁠약⁠품 추⁠천 모⁠델 재⁠현⁠성 연
 <br>
 
 - **01 · SOTA 논⁠문 리⁠뷰** — MR-DTR (WWW'25), CausalMed (CIKM'24), SubRec (NeurIPS'25) 정⁠독, 데⁠이⁠터 자⁠원⁠·전⁠처⁠리 방⁠식 비⁠교
-- **02 · HI-DR 재⁠현⁠과 확⁠장 시⁠도** — 처⁠음 세⁠운 "모⁠델⁠이 과⁠다 추⁠천⁠하⁠니 걸⁠러⁠야 한⁠다"는 사⁠후 필⁠터 가⁠설⁠이 틀⁠렸⁠음⁠을 확⁠인⁠(HI-DR 방⁠문⁠당 후⁠보 20.07, 정⁠답 20.16)⁠하⁠고, 이⁠력 기⁠반 후⁠보 풀 확⁠장⁠으⁠로 재⁠설⁠계. 운⁠영 임⁠계⁠값 기⁠준 Jaccard는 약 0.503
+- **02 · HI-DR 재⁠현⁠과 확⁠장 시⁠도** — 처⁠음 세⁠운 "모⁠델⁠이 과⁠다 추⁠천⁠하⁠니 걸⁠러⁠야 한⁠다"는 사⁠후 필⁠터 가⁠설⁠이 틀⁠렸⁠음⁠을 확⁠인⁠(HI-DR 방⁠문⁠당 후⁠보 20.07, 정⁠답 20.16)⁠하⁠고, 이⁠력 기⁠반 후⁠보 풀 확⁠장⁠으⁠로 재⁠설⁠계. 현⁠재 방⁠문 기⁠준⁠이⁠며, 운⁠영 임⁠계⁠값 기⁠준 Jaccard는 약 0.503
 - **03 · SafeDrug + 장⁠기 기⁠능** — ICD-9/10 통⁠합 MIMIC-IV 레⁠코⁠드 재⁠구⁠축, 신⁠·간 기⁠능 지⁠표 주⁠입. GPU 스⁠모⁠크 테⁠스⁠트 단⁠계
 - **04 · 군⁠집⁠별 공⁠정⁠성 감⁠사** — 진⁠단 텍⁠스⁠트⁠로 방⁠문⁠을 군⁠집⁠화⁠해 정⁠확⁠도 격⁠차 검⁠정. 재⁠현 test Jaccard 0.508~0.515, precision 격⁠차⁠가 recall 격⁠차⁠의 약 2⁠배, 개⁠입 9⁠종⁠(6⁠계⁠열) 시⁠험
 - **05 · 급⁠성 attention** — 방⁠문 표⁠현⁠을 입⁠원 시⁠점 텍⁠스⁠트 attention으⁠로 교⁠체. 시⁠드 0 기⁠준 Jaccard 0.508 → 0.518 (4⁠시⁠드 평⁠균 0.511 → 0.515), 군⁠집 격⁠차⁠는 줄⁠지 않⁠음
