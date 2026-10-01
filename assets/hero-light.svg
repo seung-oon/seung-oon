@@ -34,6 +34,6 @@
   <g class="narrow">
     <rect x="48" y="24" width="60" height="7" rx="3.5" fill="url(#bar)"/>
     <text x="46" y="106" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="80" font-weight="700" letter-spacing="-1.5" fill="#1f2328">Seungyoon Kim</text>
-    <text x="48" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="34" font-weight="500" fill="#59636e">Backend Developer <tspan fill="#0969da">&#183;</tspan> Medical AI Research</text>
+    <text x="48" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif" font-size="36" font-weight="500" fill="#59636e">Backend Developer <tspan fill="#0969da">&#183;</tspan> Medical AI Research</text>
   </g>
 </svg>
