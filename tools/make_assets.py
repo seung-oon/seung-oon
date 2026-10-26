@@ -17,25 +17,15 @@ OUT = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 
 
 
 def hero(c):
-    # Left: name block. Right (x >= 520): the cover composition from the site — ink slab, signal block,
-    # grey block, a signal pill and a dot grid at one spacing step.
-    dots = ''.join(f'<circle cx="{x}" cy="{y}" r="1.4"/>' for y in range(126, 196, 14) for x in range(612, 682, 14))
-    ground = ''.join(f'<circle cx="{x}" cy="{y}" r="1.4"/>' for y in (30, 44) for x in range(708, 806, 14))
-    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 220" role="img" aria-label="Seungyoon Kim — Backend Developer, Medical AI Research">
-  <defs><clipPath id="card"><rect x="1" y="1" width="828" height="218" rx="15"/></clipPath></defs>
-  <rect x="0.5" y="0.5" width="829" height="219" rx="15.5" fill="{c['surface']}" stroke="{c['line']}"/>
-  <g clip-path="url(#card)">
-    <rect x="560" y="-16" width="132" height="212" rx="14" fill="{c['ink']}"/>
-    <g fill="{c['surface']}">{dots}</g>
-    <rect x="704" y="96" width="96" height="100" rx="14" fill="{c['signal']}"/>
-    <rect x="704" y="58" width="72" height="26" rx="13" fill="{c['signal']}"/>
-    <rect x="812" y="40" width="80" height="156" rx="14" fill="{c['strong']}"/>
-    <g fill="{c['muted']}" fill-opacity=".55">{ground}</g>
-  </g>
-  <text x="44" y="64" font-family="{MONO}" font-size="13" letter-spacing="1.6" fill="{c['muted']}">BACKEND · MEDICAL AI RESEARCH</text>
-  <text x="42" y="128" font-family="{SANS}" font-size="56" font-weight="700" letter-spacing="-1.6" fill="{c['ink']}">Seungyoon Kim</text>
-  <rect x="452" y="88" width="16" height="42" fill="{c['signal']}"/>
-  <text x="44" y="176" font-family="{MONO}" font-size="15" fill="{c['signal']}">seungyoon-portfolio.vercel.app</text>
+    # Name first, nothing competing with it: no blocks, one signal caret, a faint dot field on the right.
+    dots = ''.join(f'<circle cx="{x}" cy="{y}" r="1.3"/>' for y in range(52, 140, 16) for x in range(652, 800, 16))
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 830 176" role="img" aria-label="Seungyoon Kim — Backend Developer, Medical AI Research">
+  <rect x="0.5" y="0.5" width="829" height="175" rx="15.5" fill="{c['surface']}" stroke="{c['line']}"/>
+  <g fill="{c['muted']}" fill-opacity=".28">{dots}</g>
+  <text x="44" y="54" font-family="{MONO}" font-size="13" letter-spacing="1.6" fill="{c['muted']}">BACKEND · MEDICAL AI RESEARCH</text>
+  <text x="42" y="112" font-family="{SANS}" font-size="52" font-weight="700" letter-spacing="-1.4" fill="{c['ink']}">Seungyoon Kim</text>
+  <rect x="424" y="75" width="14" height="38" fill="{c['signal']}"/>
+  <text x="44" y="148" font-family="{MONO}" font-size="14" fill="{c['signal']}">seungyoon-portfolio.vercel.app</text>
 </svg>
 '''
 

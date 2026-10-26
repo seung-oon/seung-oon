@@ -1,18 +1,11 @@
 <a id="top"></a>
 
-<!-- 이 파일은 단독으로 사용할 수 있도록 이미지 경로를 모두 절대 URL로 지정했습니다. -->
+<!-- 이 파일은 단독으로 사용할 수 있도록 이미지 경로를 모두 절대 URL로 지정했습니다. 그림은 tools/make_assets.py로 만듭니다. -->
 <p align="center">
   <a href="https://seungyoon-portfolio.vercel.app"><picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/hero-dark.svg">
     <img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/hero-light.svg" width="100%" alt="Seungyoon Kim · Backend Developer · Medical AI Research · seungyoon-portfolio.vercel.app">
   </picture></a>
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&amp;weight=500&amp;size=20&amp;duration=3200&amp;pause=1000&amp;color=3DDC97&amp;center=true&amp;vCenter=true&amp;width=740&amp;height=44&amp;lines=Backend+Developer%3BMedical+AI+Research%3BSpatial+Data+%26+Graph+Search">
-    <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&amp;weight=500&amp;size=20&amp;duration=3200&amp;pause=1000&amp;color=0F7B5F&amp;center=true&amp;vCenter=true&amp;width=740&amp;height=44&amp;lines=Backend+Developer%3BMedical+AI+Research%3BSpatial+Data+%26+Graph+Search" width="740" alt="Backend Developer · Medical AI Research · Spatial Data &amp; Graph Search">
-  </picture>
 </p>
 
 <p align="center">
@@ -29,19 +22,26 @@
 </p>
 
 <p align="center">
-  <sub><code>01</code></sub> <a href="#research">Research</a>&nbsp;&nbsp;&nbsp;
-  <sub><code>02</code></sub> <a href="#projects">Projects</a>&nbsp;&nbsp;&nbsp;
-  <sub><code>03</code></sub> <a href="#tech-stack">Tech Stack</a>&nbsp;&nbsp;&nbsp;
-  <sub><code>04</code></sub> <a href="#others">Others</a>
+  <a href="https://github.com/seung-oon/drug-recommendation-research"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/stat-hidr-dark.svg"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/stat-hidr-light.svg" width="260" alt="HI-DR · Jaccard 0.4550 → 0.5231 · 현재 방문 기준, 추천 약 20개, 재점수화 헤드 5-seed"></picture></a>
+  <a href="https://github.com/KozzilzzilE/DCC_Problem"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/stat-dcc-dark.svg"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/stat-dcc-light.svg" width="260" alt="DCC 예선 · Wav2Vec2 성별 분류 정확도 0.9835 · Validation 3,640통화"></picture></a>
+  <a href="https://github.com/KozzilzzilE/Running-Sketch-Server"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/stat-runify-dark.svg"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/stat-runify-light.svg" width="260" alt="Runify · Kafka·pgRouting 기반 러닝 코스 생성 서버 전담 구현"></picture></a>
 </p>
 
-<p align="center">
-  <a href="#research"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/stat-hidr-dark.svg"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/stat-hidr-light.svg" width="260" alt="HI-DR · Jaccard 0.4550 → 0.5231 · 현재 방문 기준, 추천 약 20개, 재점수화 헤드 5-seed"></picture></a>
-  <a href="#dcc-예선"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/stat-dcc-dark.svg"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/stat-dcc-light.svg" width="260" alt="DCC 예선 · Wav2Vec2 성별 분류 정확도 0.9835 · Validation 3,640통화"></picture></a>
-  <a href="#project-runify"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/stat-runify-dark.svg"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/stat-runify-light.svg" width="260" alt="Runify · Kafka·pgRouting 기반 러닝 코스 생성 서버 전담 구현"></picture></a>
-</p>
+| 작업 | 역할 · 시기 | 한 줄 요약 |
+| --- | --- | --- |
+| **[의약품 추천 연구](https://github.com/seung-oon/drug-recommendation-research)** | 재현성 독립연구 · 7개 트랙 | HI-DR 재현·확장, Jaccard **0.4550 → 0.5231** |
+| **[DCC 예선](https://github.com/KozzilzzilE/DCC_Problem)** | 5인 팀 · 2026.09 | 신고자 성별 분류 **0.9835**, 증상 다중 라벨 F1@0.5 **0.5967 → 0.6599** |
+| **[Runify](https://github.com/KozzilzzilE/Running-Sketch-Server)** | 코스 생성 서버 전담 · 2026.08 | 그린 도형을 실제 러닝 코스로, PostGIS · pgRouting · Kafka |
+| **[Safe-walk](https://github.com/safe-waalk/BE)** | Team Lead · Backend · 2026.07 | 지도 기반 안전 보행 서비스, 안전 인프라·점수 API |
+| **[ShiftMate](https://github.com/2026-1-midtone/Backend)** | Backend · 2026.08 | 근무표 사진 OCR로 일정 초안 자동 입력 |
+| **[OnRoot AI](https://github.com/On-root-AI/BE)** | Backend · 2026.05 | Q-Net 시험 일정 기반 맞춤 학습 계획 생성 |
+| **[NextPerson](https://github.com/seung-oon/NextPerson)** | Unity 6 게임 | *Papers, Please* 구조에 금융 규제 판단을 적용한 은행 창구 시뮬레이션 |
+| **[멋쟁이사자처럼 14기](https://github.com/HSU-Likelion-Backend-14th/Team-1)** | Backend 1팀 · 2026.03–05 | Spring 기반 백엔드 과제 수행 |
 
-## Research
+<a id="research"></a>
+
+<details>
+<summary><b>Research</b> · 의약품 추천 연구와 DCC 예선 상세</summary>
 
 ### Drug Recommendation Research
 
@@ -103,6 +103,8 @@ ICD-9/10을 통합한 MIMIC-IV 레코드를 재구축하고 신장·간 기능 �
 
 </details>
 
+<a id="dcc-예선"></a>
+
 ### DCC 예선
 
 **119 신고 전화 음성·전사 데이터 AI 과제 · 5인 팀 · 2026.09**  
@@ -139,7 +141,12 @@ Mission 3의 제출 설정은 **Training 내부 dev로 결정**하고, Validatio
 
 </details>
 
-## Projects
+</details>
+
+<a id="projects"></a>
+
+<details>
+<summary><b>Projects</b> · 백엔드 프로젝트 구현 상세</summary>
 
 <table>
 <tr>
@@ -148,18 +155,14 @@ Mission 3의 제출 설정은 **Training 내부 dev로 결정**하고, Validatio
 <h3><a href="https://github.com/KozzilzzilE/Running-Sketch-Server">Runify</a></h3>
 <p><b>그린 도형을 실제 러닝 코스로</b></p>
 <p>Backend · 코스 생성 서버 전담<br>2026.08</p>
-<p>계산기하·그래프 탐색 파이프라인과 이벤트 처리 구현</p>
 <p><code>PostGIS · pgRouting · Kafka</code></p>
-<p><a href="https://github.com/KozzilzzilE/Running-Sketch-Server">Repository ↗</a> · <a href="#project-runify">구현 내용 ↓</a></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/safe-waalk/BE"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/projects/safewalk-radius.webp" width="100%" alt="Safe-walk가 적재한 서울 OSM 보행 도로망 위에 안전점수 집계 반경(CCTV·범죄주의구역 150m, 보안등·안심벨 100m)을 그린 지도"></a>
 <h3><a href="https://github.com/safe-waalk/BE">Safe-walk</a></h3>
 <p><b>지도 기반 안전 보행 서비스</b></p>
 <p>Team Lead · Backend<br>2026.07</p>
-<p>공간 데이터 설계와 안전 인프라·점수 API 구현</p>
 <p><code>PostGIS · PostgreSQL · Spring Boot</code></p>
-<p><a href="https://github.com/safe-waalk/BE">Repository ↗</a> · <a href="#project-safe-walk">구현 내용 ↓</a></p>
 </td>
 </tr>
 <tr>
@@ -168,26 +171,21 @@ Mission 3의 제출 설정은 **Training 내부 dev로 결정**하고, Validatio
 <h3><a href="https://github.com/2026-1-midtone/Backend">ShiftMate</a></h3>
 <p><b>교대근무자를 위한 생체리듬 코칭</b></p>
 <p>Backend<br>2026.08</p>
-<p>근무표 사진 OCR을 통한 일정 초안 자동 입력</p>
 <p><code>Document AI · MySQL · Redis</code></p>
-<p><a href="https://github.com/2026-1-midtone/Backend">Repository ↗</a> · <a href="#project-shiftrhythm">구현 내용 ↓</a></p>
 </td>
 <td width="50%" valign="top">
 <a href="https://github.com/On-root-AI/BE"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/projects/onroot-mascot.webp" width="100%" alt="OnRoot AI 캐릭터: 초록 바탕 위의 새싹"></a>
 <h3><a href="https://github.com/On-root-AI/BE">OnRoot AI</a></h3>
 <p><b>자격증 학습을 위한 AI 플래너</b></p>
 <p>Backend<br>2026.05</p>
-<p>Q-Net 시험 일정 기반 맞춤 학습 계획 생성</p>
 <p><code>Gemini API · Spring Data JPA</code></p>
-<p><a href="https://github.com/On-root-AI/BE">Repository ↗</a> · <a href="#project-onroot-ai">구현 내용 ↓</a></p>
 </td>
 </tr>
 </table>
 
 <a id="project-runify"></a>
 
-<details>
-<summary><b>Runify · 구현 내용과 측정 결과</b></summary>
+#### Runify · 구현 내용과 측정 결과
 
 **그린 도형을 실제 도보 도로망 위의 러닝 코스로 바꾸는 서비스**  
 Backend · 코스 생성 서버 전담 · 팀 프로젝트 · 2026.08  
@@ -198,20 +196,13 @@ Backend · 코스 생성 서버 전담 · 팀 프로젝트 · 2026.08
 - **코스 생성:** 도형 정규화 → 배치 탐색 → 도로 스냅 → `pgr_dijkstra` 스티칭 → 닮음도 채점·보정으로 이어지는 계산기하·그래프 탐색 파이프라인을 구현했습니다. 강남·서초 약 **8×8km OSM 도보망**을 사용합니다.
 - **품질 검증:** 계단 모양 코스가 곧은 코스보다 높게 채점되는 결함을 실측으로 확인했습니다. 꺾임·방문 항을 추가해 해당 코스를 발행 관문에서 걸러내도록 보정했습니다.
 - **이벤트 처리:** Kafka 요청 소비부터 결과 이벤트 발행까지 구현했습니다. 수동 커밋, 재시도 후 DLT, `generationId` 멱등 처리, 정체된 RUNNING 작업 자동 복귀와 Testcontainers 통합 테스트를 적용했습니다.
-
-#### 측정 결과와 남은 한계
-
 - **채점 결함:** 4,000m V자 입력에서 코너 26개의 계단 코스가 0.9015로, 곧은 코스의 0.784보다 높게 채점됐습니다. 보정 후 재측정 **3/3건**에서 계단 코스가 발행 관문에서 걸러졌습니다.
 - **되돌린 시도:** 경유점 간격을 600m로 바꿨을 때 측정 35건 중 발행 가능한 코스가 **24 → 15건**으로 줄어, 측정 근거와 함께 되돌렸습니다.
 - **남은 한계:** 여러 획으로 그린 도형 미지원은 저장소의 이슈 #1에, 코너가 많은 도형의 한계는 측정 문서에 기록했습니다. 왕관 도형은 **0/5건**이었습니다.
 
-
-</details>
-
 <a id="project-safe-walk"></a>
 
-<details>
-<summary><b>Safe-walk · 구현 내용</b></summary>
+#### Safe-walk · 구현 내용
 
 **지도 기반 안전 보행 서비스**  
 Team Lead · Backend · 경기도 공공데이터 공모전 · 2026.07  
@@ -223,12 +214,9 @@ Team Lead · Backend · 경기도 공공데이터 공모전 · 2026.07
 - 좌표 반경 기반 **안전 인프라 집계·지도 레이어·안전점수 API**를 구현했습니다.
 - ORM 없이 `NamedParameterJdbcTemplate`으로 공간 쿼리를 직접 작성했습니다.
 
-</details>
-
 <a id="project-shiftrhythm"></a>
 
-<details>
-<summary><b>ShiftMate · 구현 내용</b></summary>
+#### ShiftMate · 구현 내용
 
 **교대근무자를 위한 생체리듬 코칭 앱**  
 Backend · 2026.08  
@@ -239,12 +227,9 @@ Backend · 2026.08
 - 근무표 사진을 **Google Document AI OCR**로 인식해 일정 초안을 자동 입력하도록 구현했습니다. 키 파일 없이 서비스 계정 impersonation을 사용했습니다.
 - Testcontainers 기반 MySQL·Redis 통합 테스트와 Docker Compose 로컬 환경을 구성했습니다.
 
-</details>
-
 <a id="project-onroot-ai"></a>
 
-<details>
-<summary><b>OnRoot AI · 구현 내용</b></summary>
+#### OnRoot AI · 구현 내용
 
 **LLM 기반 자격증 학습 플래너**  
 Backend · 2026.05  
@@ -256,13 +241,15 @@ Backend · 2026.05
 
 </details>
 
-## Tech Stack
+<a id="tech-stack"></a>
+
+<details>
+<summary><b>Tech Stack</b></summary>
+
+<br>
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,spring,python,pytorch,postgres,mysql,redis,kafka,docker,aws,gcp,githubactions&amp;perline=6&amp;theme=dark">
-    <img src="https://skillicons.dev/icons?i=java,spring,python,pytorch,postgres,mysql,redis,kafka,docker,aws,gcp,githubactions&amp;perline=6&amp;theme=light" width="360" alt="Java, Spring, Python, PyTorch, PostgreSQL, MySQL, Redis, Kafka, Docker, AWS, GCP, GitHub Actions">
-  </picture>
+  <img src="https://skillicons.dev/icons?i=java,spring,python,pytorch,postgres,mysql,redis,kafka,docker,aws,gcp,githubactions&amp;perline=6" width="360" alt="Java, Spring, Python, PyTorch, PostgreSQL, MySQL, Redis, Kafka, Docker, AWS, GCP, GitHub Actions">
 </p>
 
 | 분야 | 기술 |
@@ -271,28 +258,21 @@ Backend · 2026.05
 | **Infra** | AWS · GCP · Docker · GitHub Actions |
 | **AI · ML** | Python · PyTorch · LangChain / RAG |
 
-## Others
+</details>
 
-<table>
-<tr>
-<td width="50%" valign="top">
-<a href="https://github.com/seung-oon/NextPerson"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/projects/nextperson-case.webp" width="100%" alt="NextPerson 규칙 일러스트(게임 화면 아님): DSR 67.3%가 규제 한도 40%를 넘어 거절이 정답인 사례, 손님당 25초, 사원부터 지점장까지 직급, 불만 5건이면 권고사직"></a>
-<h3><a href="https://github.com/seung-oon/NextPerson">NextPerson</a></h3>
-<p><b>은행 창구 업무 시뮬레이션 게임</b></p>
-<p>Unity 6 기반. <i>Papers, Please</i> 구조에 금융 규제 판단을 적용했습니다.</p>
-<p><code>Unity 6 · C#</code></p>
-</td>
-<td width="50%" valign="top">
-<h3><a href="https://github.com/HSU-Likelion-Backend-14th/Team-1">멋쟁이사자처럼 14기</a></h3>
-<p><b>Backend 1팀</b></p>
-<p>2026.03–05</p>
-<p>Spring 기반 백엔드 과제 수행</p>
-<p><code>Java · Spring</code></p>
-</td>
-</tr>
-</table>
+<a id="others"></a>
 
-<p align="center"><a href="#top">↑ Back to top</a></p>
+<details>
+<summary><b>Others</b> · NextPerson, 멋쟁이사자처럼</summary>
+
+<br>
+
+<a href="https://github.com/seung-oon/NextPerson"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/projects/nextperson-case.webp" width="480" alt="NextPerson 규칙 일러스트(게임 화면 아님): DSR 67.3%가 규제 한도 40%를 넘어 거절이 정답인 사례, 손님당 25초, 사원부터 지점장까지 직급, 불만 5건이면 권고사직"></a>
+
+- **[NextPerson](https://github.com/seung-oon/NextPerson)** · Unity 6 기반 은행 창구 업무 시뮬레이션 게임. *Papers, Please* 구조에 금융 규제 판단을 적용했습니다.
+- **[멋쟁이사자처럼 14기 Backend 1팀](https://github.com/HSU-Likelion-Backend-14th/Team-1)** · Spring 기반 백엔드 과제 수행 · 2026.03–05
+
+</details>
 
 <p align="center">
   <a href="https://seungyoon-portfolio.vercel.app"><picture>
