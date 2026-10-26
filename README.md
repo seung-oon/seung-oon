@@ -2,13 +2,16 @@
 
 <!-- 이 파일은 단독으로 사용할 수 있도록 이미지 경로를 모두 절대 URL로 지정했습니다. -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0%3A0F172A%2C50%3A2563EB%2C100%3A22D3EE&amp;height=230&amp;section=header&amp;text=Seungyoon+Kim&amp;fontSize=56&amp;fontColor=FFFFFF&amp;animation=fadeIn&amp;fontAlignY=35&amp;desc=Backend+Developer+%7C+Medical+AI+Research&amp;descSize=19&amp;descAlignY=58" width="100%" alt="Seungyoon Kim · Backend Developer · Medical AI Research">
+  <a href="https://seungyoon-portfolio.vercel.app"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/hero-dark.svg">
+    <img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/hero-light.svg" width="100%" alt="Seungyoon Kim · Backend Developer · Medical AI Research · seungyoon-portfolio.vercel.app">
+  </picture></a>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=21&amp;duration=3200&amp;pause=1000&amp;color=38BDF8&amp;center=true&amp;vCenter=true&amp;width=740&amp;height=48&amp;lines=Backend+Developer%3BMedical+AI+Research%3BSpatial+Data+%26+Graph+Search">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;size=21&amp;duration=3200&amp;pause=1000&amp;color=0369A1&amp;center=true&amp;vCenter=true&amp;width=740&amp;height=48&amp;lines=Backend+Developer%3BMedical+AI+Research%3BSpatial+Data+%26+Graph+Search" width="740" alt="Backend Developer · Medical AI Research · Spatial Data &amp; Graph Search">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&amp;weight=500&amp;size=20&amp;duration=3200&amp;pause=1000&amp;color=3DDC97&amp;center=true&amp;vCenter=true&amp;width=740&amp;height=44&amp;lines=Backend+Developer%3BMedical+AI+Research%3BSpatial+Data+%26+Graph+Search">
+    <img src="https://readme-typing-svg.demolab.com?font=IBM+Plex+Mono&amp;weight=500&amp;size=20&amp;duration=3200&amp;pause=1000&amp;color=0F7B5F&amp;center=true&amp;vCenter=true&amp;width=740&amp;height=44&amp;lines=Backend+Developer%3BMedical+AI+Research%3BSpatial+Data+%26+Graph+Search" width="740" alt="Backend Developer · Medical AI Research · Spatial Data &amp; Graph Search">
   </picture>
 </p>
 
@@ -20,16 +23,16 @@
 
 <p align="center">
   <a href="https://seungyoon-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0F7B5F?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Portfolio site"></a>
-  <a href="mailto:rlatmddbs02@gmail.com"><img src="https://img.shields.io/badge/Email-334155?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/%EC%8A%B9%EC%9C%A4-%EA%B9%80-87099041a/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
-  <a href="https://github.com/seung-oon?tab=repositories"><img src="https://img.shields.io/badge/Repositories-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="All repositories"></a>
+  <a href="mailto:rlatmddbs02@gmail.com"><img src="https://img.shields.io/badge/Email-111214?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/%EC%8A%B9%EC%9C%A4-%EA%B9%80-87099041a/"><img src="https://img.shields.io/badge/LinkedIn-111214?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
+  <a href="https://github.com/seung-oon?tab=repositories"><img src="https://img.shields.io/badge/Repositories-111214?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="All repositories"></a>
 </p>
 
 <p align="center">
-  <a href="#research">🔬 Research</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#projects">🚀 Projects</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#tech-stack">🛠 Tech Stack</a>&nbsp;&nbsp;·&nbsp;&nbsp;
-  <a href="#others">🌱 Others</a>
+  <sub><code>01</code></sub> <a href="#research">Research</a>&nbsp;&nbsp;&nbsp;
+  <sub><code>02</code></sub> <a href="#projects">Projects</a>&nbsp;&nbsp;&nbsp;
+  <sub><code>03</code></sub> <a href="#tech-stack">Tech Stack</a>&nbsp;&nbsp;&nbsp;
+  <sub><code>04</code></sub> <a href="#others">Others</a>
 </p>
 
 <p align="center">
@@ -141,7 +144,8 @@ Mission 3의 제출 설정은 **Training 내부 dev로 결정**하고, Validatio
 <table>
 <tr>
 <td width="50%" valign="top">
-<h3>🏃 <a href="https://github.com/KozzilzzilE/Running-Sketch-Server">Runify</a></h3>
+<a href="https://github.com/KozzilzzilE/Running-Sketch-Server"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/projects/runify-course.webp" width="100%" alt="Runify 측정 문서의 4km 코스 비교: 회색 목표 도형 위에 이전 기준과 현재 기준으로 생성한 코스"></a>
+<h3><a href="https://github.com/KozzilzzilE/Running-Sketch-Server">Runify</a></h3>
 <p><b>그린 도형을 실제 러닝 코스로</b></p>
 <p>Backend · 코스 생성 서버 전담<br>2026.08</p>
 <p>계산기하·그래프 탐색 파이프라인과 이벤트 처리 구현</p>
@@ -149,7 +153,8 @@ Mission 3의 제출 설정은 **Training 내부 dev로 결정**하고, Validatio
 <p><a href="https://github.com/KozzilzzilE/Running-Sketch-Server">Repository ↗</a> · <a href="#project-runify">구현 내용 ↓</a></p>
 </td>
 <td width="50%" valign="top">
-<h3>🛡️ <a href="https://github.com/safe-waalk/BE">Safe-walk</a></h3>
+<a href="https://github.com/safe-waalk/BE"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/projects/safewalk-radius.webp" width="100%" alt="Safe-walk가 적재한 서울 OSM 보행 도로망 위에 안전점수 집계 반경(CCTV·범죄주의구역 150m, 보안등·안심벨 100m)을 그린 지도"></a>
+<h3><a href="https://github.com/safe-waalk/BE">Safe-walk</a></h3>
 <p><b>지도 기반 안전 보행 서비스</b></p>
 <p>Team Lead · Backend<br>2026.07</p>
 <p>공간 데이터 설계와 안전 인프라·점수 API 구현</p>
@@ -159,7 +164,8 @@ Mission 3의 제출 설정은 **Training 내부 dev로 결정**하고, Validatio
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3>🌙 <a href="https://github.com/2026-1-midtone/Backend">ShiftMate</a></h3>
+<a href="https://github.com/2026-1-midtone/Backend"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/projects/shiftmate-mascot.webp" width="100%" alt="ShiftMate 캐릭터: 확성기를 든 보라색 고양이"></a>
+<h3><a href="https://github.com/2026-1-midtone/Backend">ShiftMate</a></h3>
 <p><b>교대근무자를 위한 생체리듬 코칭</b></p>
 <p>Backend<br>2026.08</p>
 <p>근무표 사진 OCR을 통한 일정 초안 자동 입력</p>
@@ -167,7 +173,8 @@ Mission 3의 제출 설정은 **Training 내부 dev로 결정**하고, Validatio
 <p><a href="https://github.com/2026-1-midtone/Backend">Repository ↗</a> · <a href="#project-shiftrhythm">구현 내용 ↓</a></p>
 </td>
 <td width="50%" valign="top">
-<h3>🧭 <a href="https://github.com/On-root-AI/BE">OnRoot AI</a></h3>
+<a href="https://github.com/On-root-AI/BE"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/projects/onroot-mascot.webp" width="100%" alt="OnRoot AI 캐릭터: 초록 바탕 위의 새싹"></a>
+<h3><a href="https://github.com/On-root-AI/BE">OnRoot AI</a></h3>
 <p><b>자격증 학습을 위한 AI 플래너</b></p>
 <p>Backend<br>2026.05</p>
 <p>Q-Net 시험 일정 기반 맞춤 학습 계획 생성</p>
@@ -252,7 +259,10 @@ Backend · 2026.05
 ## Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,python,pytorch,postgres,mysql,redis,kafka,docker,aws,gcp,githubactions&amp;perline=6" width="360" alt="Java, Spring, Python, PyTorch, PostgreSQL, MySQL, Redis, Kafka, Docker, AWS, GCP, GitHub Actions">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=java,spring,python,pytorch,postgres,mysql,redis,kafka,docker,aws,gcp,githubactions&amp;perline=6&amp;theme=dark">
+    <img src="https://skillicons.dev/icons?i=java,spring,python,pytorch,postgres,mysql,redis,kafka,docker,aws,gcp,githubactions&amp;perline=6&amp;theme=light" width="360" alt="Java, Spring, Python, PyTorch, PostgreSQL, MySQL, Redis, Kafka, Docker, AWS, GCP, GitHub Actions">
+  </picture>
 </p>
 
 | 분야 | 기술 |
@@ -263,11 +273,30 @@ Backend · 2026.05
 
 ## Others
 
-- **[NextPerson](https://github.com/seung-oon/NextPerson)** · Unity 6 기반 은행 창구 업무 시뮬레이션 게임. *Papers, Please* 구조에 금융 규제 판단을 적용했습니다.
-- **[멋쟁이사자처럼 14기 Backend 1팀](https://github.com/HSU-Likelion-Backend-14th/Team-1)** · Spring 기반 백엔드 과제 수행 · 2026.03–05
+<table>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/seung-oon/NextPerson"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/projects/nextperson-case.webp" width="100%" alt="NextPerson 규칙 일러스트(게임 화면 아님): DSR 67.3%가 규제 한도 40%를 넘어 거절이 정답인 사례, 손님당 25초, 사원부터 지점장까지 직급, 불만 5건이면 권고사직"></a>
+<h3><a href="https://github.com/seung-oon/NextPerson">NextPerson</a></h3>
+<p><b>은행 창구 업무 시뮬레이션 게임</b></p>
+<p>Unity 6 기반. <i>Papers, Please</i> 구조에 금융 규제 판단을 적용했습니다.</p>
+<p><code>Unity 6 · C#</code></p>
+</td>
+<td width="50%" valign="top">
+<h3><a href="https://github.com/HSU-Likelion-Backend-14th/Team-1">멋쟁이사자처럼 14기</a></h3>
+<p><b>Backend 1팀</b></p>
+<p>2026.03–05</p>
+<p>Spring 기반 백엔드 과제 수행</p>
+<p><code>Java · Spring</code></p>
+</td>
+</tr>
+</table>
 
 <p align="center"><a href="#top">↑ Back to top</a></p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=0%3A0F172A%2C50%3A2563EB%2C100%3A22D3EE&amp;height=100&amp;section=footer" width="100%" alt="">
+  <a href="https://seungyoon-portfolio.vercel.app"><picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/footer-dark.svg">
+    <img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/footer-light.svg" width="100%" alt="seungyoon-portfolio.vercel.app">
+  </picture></a>
 </p>
