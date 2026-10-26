@@ -19,6 +19,7 @@
 </p>
 
 <p align="center">
+  <a href="https://seungyoon-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0F7B5F?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Portfolio site"></a>
   <a href="mailto:rlatmddbs02@gmail.com"><img src="https://img.shields.io/badge/Email-334155?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email"></a>
   <a href="https://www.linkedin.com/in/%EC%8A%B9%EC%9C%A4-%EA%B9%80-87099041a/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
   <a href="https://github.com/seung-oon?tab=repositories"><img src="https://img.shields.io/badge/Repositories-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="All repositories"></a>
@@ -158,7 +159,7 @@ Mission 3의 제출 설정은 **Training 내부 dev로 결정**하고, Validatio
 </tr>
 <tr>
 <td width="50%" valign="top">
-<h3>🌙 <a href="https://github.com/2026-1-midtone/Backend">ShiftRhythm</a></h3>
+<h3>🌙 <a href="https://github.com/2026-1-midtone/Backend">ShiftMate</a></h3>
 <p><b>교대근무자를 위한 생체리듬 코칭</b></p>
 <p>Backend<br>2026.08</p>
 <p>근무표 사진 OCR을 통한 일정 초안 자동 입력</p>
@@ -220,7 +221,7 @@ Team Lead · Backend · 경기도 공공데이터 공모전 · 2026.07
 <a id="project-shiftrhythm"></a>
 
 <details>
-<summary><b>ShiftRhythm · 구현 내용</b></summary>
+<summary><b>ShiftMate · 구현 내용</b></summary>
 
 **교대근무자를 위한 생체리듬 코칭 앱**  
 Backend · 2026.08  
