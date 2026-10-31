@@ -46,10 +46,10 @@ def text(s, x, y, size, weight='Regular', track=0.0, fill='#000', anchor='start'
 def hero(c):
     W, H = 1200, 440
     parts = [f'<rect width="{W}" height="{H}" fill="{c["ground"]}"/>']
-    p, w1 = text('검증한 것만', 40, 196, 132, 'ExtraBold', -0.055, c['ink']); parts.append(p)
-    p, w2 = text('남기는 김승윤', 40, 334, 132, 'ExtraBold', -0.055, c['ink']); parts.append(p)
+    p, w1 = text('김승윤', 40, 196, 132, 'ExtraBold', -0.055, c['ink']); parts.append(p)
+    p, w2 = text('백엔드 개발자', 40, 334, 132, 'ExtraBold', -0.055, c['ink']); parts.append(p)
     right = W - 40
-    for i, line in enumerate(['백엔드 개발자 · 의료 추천 모델 재현 연구', '한성대학교 컴퓨터공학부 4학년']):
+    for i, line in enumerate(['지도·경로 서버 개발 · 의료 추천 모델 재현 연구', '한성대학교 컴퓨터공학부 4학년']):
         p, _ = text(line, right, 236 + i * 32, 21, 'Regular', -0.01, c['ink'], 'end'); parts.append(p)
     label, lw = text('seungyoon-portfolio.vercel.app', 0, 0, 19, 'SemiBold', -0.01, c['on_accent'])
     bw = lw + 44
@@ -57,7 +57,7 @@ def hero(c):
     parts.append(f'<rect x="{right - bw:.1f}" y="296" width="{bw:.1f}" height="52" fill="{c["accent"]}"/>')
     parts.append(p)
     assert 40 + max(w1, w2) < right - bw - 24, 'headline runs into the right column'
-    return svg(W, H, 'Seungyoon Kim · 검증한 것만 남기는 김승윤 · 백엔드 개발자, 의료 추천 모델 재현 연구 · seungyoon-portfolio.vercel.app', parts)
+    return svg(W, H, '김승윤 · 백엔드 개발자 · 지도·경로 서버 개발, 의료 추천 모델 재현 연구 · seungyoon-portfolio.vercel.app', parts)
 
 
 def check(c, question, before, after, verdict, label):
@@ -87,11 +87,11 @@ def svg(w, h, label, parts):
 
 
 CHECKS = {
-    'hidr': (['HI-DR은 약을 너무 많이 추천해서', '사후 필터가 필요할까?'], '0.4550', '0.5231', '가설이 틀렸음 · 후보 풀 재설계 · Jaccard',
+    'hidr': (['HI-DR 과다 추천 가설'], '0.4550', '0.5231', '가설과 다른 결과 · 후보 풀 재설계 · Jaccard',
              'HI-DR 과다 추천 가설은 틀렸고(방문당 후보 20.07개, 정답 20.16개), 후보 풀을 다시 설계해 현재 방문 기준 Jaccard 0.4550에서 0.5231'),
-    'dcc': (['DCC 증상 분류의 F1@0.5는', '왜 낮았을까?'], '0.5967', '0.6599', '드문 증상의 보정 · 손실 가중 power 0.5',
+    'dcc': (['DCC 증상 분류 F1 개선'], '0.5967', '0.6599', '원인 확인 후 개선 · Macro F1@0.5',
             'DCC 예선 증상 다중 라벨 분류 Macro F1@0.5, 손실 가중 보정으로 0.5967에서 제출 0.6599'),
-    'ddi': (['SafeDrug의 DDI 페널티는', '모든 환자군에 고르게 작동할까?'], '0.030', '0.016', '고르지 않았음 · 페널티를 끄면 격차 감소',
+    'ddi': (['SafeDrug DDI 페널티의 군집별 영향'], '0.030', '0.016', '군집마다 다르게 작동 · 끄면 격차 감소',
             'SafeDrug DDI 페널티를 끄자 군집 간 초과 DDI 격차가 0.030에서 0.016으로 감소, k = 10, 4-seed 모두'),
 }
 
