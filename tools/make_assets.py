@@ -73,12 +73,13 @@ def check(c, question, before, after, verdict, label):
     return svg(W, H, label, parts)
 
 
-def footer(c):
-    W, H = 1200, 260
-    p, w = text('seungyoon', 0, 0, 280, 'ExtraBold', -0.065, c['ink'])
-    size = 280 * (W - 80) / w
-    p, _ = text('seungyoon', 40, 30 + size * 0.74, size, 'ExtraBold', -0.065, c['ink'])
-    return svg(W, H, 'seungyoon', [p])
+def footer():
+    # One mid-grey ink that reads on GitHub's light and dark themes alike: the footer has no ground of its own.
+    W, H = 1200, 200
+    p, w = text('Seungyoon Kim', 0, 0, 200, 'ExtraBold', -0.06, '#8a8a8e')
+    size = 200 * (W - 80) / w
+    p, _ = text('Seungyoon Kim', 40, 24 + size * 0.74, size, 'ExtraBold', -0.06, '#8a8a8e')
+    return svg(W, H, 'Seungyoon Kim', [p])
 
 
 def svg(w, h, label, parts):
@@ -100,7 +101,7 @@ if __name__ == '__main__':
     for theme, c in THEMES.items():
         files = {f'hero-{theme}.svg': hero(c)}
         if theme == 'light':
-            files['footer.svg'] = footer(c)
+            files['footer.svg'] = footer()
         for key, args in CHECKS.items():
             files[f'check-{key}-{theme}.svg'] = check(c, *args)
         for name, body in files.items():
