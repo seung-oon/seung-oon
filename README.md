@@ -1,7 +1,10 @@
 <a id="top"></a>
 
 <!-- 이 파일은 단독으로 사용할 수 있도록 이미지 경로를 모두 절대 URL로 지정했습니다. 그림은 tools/make_assets.py로 만들며, 포트폴리오 사이트와 같은 디자인(회색 바탕, 검정 글자, 녹색 하나, Pretendard)을 씁니다. -->
-<a href="https://seungyoon-portfolio.vercel.app"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/hero-light.svg#gh-light-mode-only" width="100%" alt="Seungyoon Kim · 김승윤 · 백엔드 개발자 · 한성대학교 컴퓨터공학부 4학년 · seungyoon-portfolio.vercel.app"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/hero-dark.svg#gh-dark-mode-only" width="100%" alt="Seungyoon Kim · 김승윤 · 백엔드 개발자 · 한성대학교 컴퓨터공학부 4학년 · seungyoon-portfolio.vercel.app"></a>
+<a href="https://seungyoon-portfolio.vercel.app"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/hero-dark.svg">
+  <img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/hero-light.svg" width="100%" alt="Seungyoon Kim · 김승윤 · 백엔드 개발자 · 한성대학교 컴퓨터공학부 4학년 · seungyoon-portfolio.vercel.app">
+</picture></a>
 
 지도 위에서 경로를 계산하는 서버를 만들고, 의료 추천 모델을 재현하는 연구를 합니다. 주로 Spring Boot, PostGIS, PyTorch를 씁니다.
 
@@ -9,7 +12,7 @@
 
 ### 실험 기록
 
-<p><a href="https://github.com/seung-oon/drug-recommendation-research"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/check-hidr-light.svg#gh-light-mode-only" width="270" alt="HI-DR 과다 추천 가설: 가설과 다른 결과. 방문당 후보 20.07개, 정답 20.16개. 후보 풀을 재설계해 현재 방문 기준 Jaccard 0.4550 → 0.5231"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/check-hidr-dark.svg#gh-dark-mode-only" width="270" alt="HI-DR 과다 추천 가설: 가설과 다른 결과. 방문당 후보 20.07개, 정답 20.16개. 후보 풀을 재설계해 현재 방문 기준 Jaccard 0.4550 → 0.5231"></a> <a href="https://github.com/KozzilzzilE/DCC_Problem"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/check-dcc-light.svg#gh-light-mode-only" width="270" alt="DCC 증상 분류 F1 개선: 드문 증상의 확률 보정 문제를 확인하고 손실 가중 power 0.5 등으로 Macro F1@0.5 0.5967 → 제출 0.6599"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/check-dcc-dark.svg#gh-dark-mode-only" width="270" alt="DCC 증상 분류 F1 개선: 드문 증상의 확률 보정 문제를 확인하고 손실 가중 power 0.5 등으로 Macro F1@0.5 0.5967 → 제출 0.6599"></a> <a href="https://github.com/seung-oon/drug-recommendation-research"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/check-ddi-light.svg#gh-light-mode-only" width="270" alt="SafeDrug DDI 페널티의 군집별 영향: 군집마다 다르게 작동. 페널티를 끄면 군집 간 초과 DDI 격차 0.030 → 0.016, k = 10, 4-seed 모두"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/check-ddi-dark.svg#gh-dark-mode-only" width="270" alt="SafeDrug DDI 페널티의 군집별 영향: 군집마다 다르게 작동. 페널티를 끄면 군집 간 초과 DDI 격차 0.030 → 0.016, k = 10, 4-seed 모두"></a></p>
+<p><a href="https://github.com/seung-oon/drug-recommendation-research"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/check-hidr-dark.svg"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/check-hidr-light.svg" width="270" alt="HI-DR 과다 추천 가설: 가설과 다른 결과. 방문당 후보 20.07개, 정답 20.16개. 후보 풀을 재설계해 현재 방문 기준 Jaccard 0.4550 → 0.5231"></picture></a> <a href="https://github.com/KozzilzzilE/DCC_Problem"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/check-dcc-dark.svg"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/check-dcc-light.svg" width="270" alt="DCC 증상 분류 F1 개선: 드문 증상의 확률 보정 문제를 확인하고 손실 가중 power 0.5 등으로 Macro F1@0.5 0.5967 → 제출 0.6599"></picture></a> <a href="https://github.com/seung-oon/drug-recommendation-research"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/check-ddi-dark.svg"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/check-ddi-light.svg" width="270" alt="SafeDrug DDI 페널티의 군집별 영향: 군집마다 다르게 작동. 페널티를 끄면 군집 간 초과 DDI 격차 0.030 → 0.016, k = 10, 4-seed 모두"></picture></a></p>
 
 ### 작업
 
@@ -261,4 +264,4 @@ Backend · 2026.05
 
 </details>
 
-<a href="https://seungyoon-portfolio.vercel.app"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/footer-light.svg#gh-light-mode-only" width="100%" alt="seungyoon · seungyoon-portfolio.vercel.app"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/footer-dark.svg#gh-dark-mode-only" width="100%" alt="seungyoon · seungyoon-portfolio.vercel.app"></a>
+<a href="https://seungyoon-portfolio.vercel.app"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/footer.svg" width="100%" alt="Seungyoon Kim · seungyoon-portfolio.vercel.app"></a>

@@ -98,7 +98,9 @@ CHECKS = {
 if __name__ == '__main__':
     os.makedirs(OUT, exist_ok=True)
     for theme, c in THEMES.items():
-        files = {f'hero-{theme}.svg': hero(c), f'footer-{theme}.svg': footer(c)}
+        files = {f'hero-{theme}.svg': hero(c)}
+        if theme == 'light':
+            files['footer.svg'] = footer(c)
         for key, args in CHECKS.items():
             files[f'check-{key}-{theme}.svg'] = check(c, *args)
         for name, body in files.items():
