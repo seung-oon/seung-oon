@@ -1,31 +1,20 @@
 <a id="top"></a>
 
-<!-- 이 파일은 단독으로 사용할 수 있도록 이미지 경로를 모두 절대 URL로 지정했습니다. 그림은 tools/make_assets.py로 만듭니다. -->
-<p align="center">
-  <a href="https://seungyoon-portfolio.vercel.app"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/hero-dark.svg">
-    <img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/hero-light.svg" width="100%" alt="Seungyoon Kim · Backend Developer · Medical AI Research · seungyoon-portfolio.vercel.app">
-  </picture></a>
-</p>
+<!-- 이 파일은 단독으로 사용할 수 있도록 이미지 경로를 모두 절대 URL로 지정했습니다. 그림은 tools/make_assets.py로 만들며, 포트폴리오 사이트와 같은 디자인 시스템(회색 바탕, 검정 글자, 녹색 하나, Pretendard)을 씁니다. -->
+<a href="https://seungyoon-portfolio.vercel.app"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/hero-dark.svg">
+  <img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/hero-light.svg" width="100%" alt="검증한 것만 남기는 김승윤 · 백엔드 개발자, 의료 추천 모델 재현 연구 · 한성대학교 컴퓨터공학부 4학년 · seungyoon-portfolio.vercel.app">
+</picture></a>
 
-<p align="center">
-  <b>한성대학교 컴퓨터공학부 4학년</b><br>
-  추천 모델의 <b>재현성과 평가</b>를 연구하고,<br>
-  <b>공간 DB와 그래프 탐색 기반의 백엔드</b>를 개발합니다.
-</p>
+공간 DB와 그래프 탐색으로 백엔드를 만들고, 의료 추천 모델을 재현해 검증합니다. 짐작으로 고치기 전에 먼저 재고, 틀린 가설도 기록으로 남깁니다.
 
-<p align="center">
-  <a href="https://seungyoon-portfolio.vercel.app"><img src="https://img.shields.io/badge/Portfolio-0F7B5F?style=for-the-badge&amp;logo=vercel&amp;logoColor=white" alt="Portfolio site"></a>
-  <a href="mailto:rlatmddbs02@gmail.com"><img src="https://img.shields.io/badge/Email-111214?style=for-the-badge&amp;logo=gmail&amp;logoColor=white" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/%EC%8A%B9%EC%9C%A4-%EA%B9%80-87099041a/"><img src="https://img.shields.io/badge/LinkedIn-111214?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" alt="LinkedIn"></a>
-  <a href="https://github.com/seung-oon?tab=repositories"><img src="https://img.shields.io/badge/Repositories-111214?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="All repositories"></a>
-</p>
+**[포트폴리오](https://seungyoon-portfolio.vercel.app)** · **[메일](mailto:rlatmddbs02@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/%EC%8A%B9%EC%9C%A4-%EA%B9%80-87099041a/)** · **[전체 저장소](https://github.com/seung-oon?tab=repositories)**
 
-<p align="center">
-  <a href="https://github.com/seung-oon/drug-recommendation-research"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/stat-hidr-dark.svg"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/stat-hidr-light.svg" width="260" alt="HI-DR · Jaccard 0.4550 → 0.5231 · 현재 방문 기준, 추천 약 20개, 재점수화 헤드 5-seed"></picture></a>
-  <a href="https://github.com/KozzilzzilE/DCC_Problem"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/stat-dcc-dark.svg"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/stat-dcc-light.svg" width="260" alt="DCC 예선 · Wav2Vec2 성별 분류 정확도 0.9835 · Validation 3,640통화"></picture></a>
-  <a href="https://github.com/KozzilzzilE/Running-Sketch-Server"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/stat-runify-dark.svg"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/stat-runify-light.svg" width="260" alt="Runify · Kafka·pgRouting 기반 러닝 코스 생성 서버 전담 구현"></picture></a>
-</p>
+### 확인한 것
+
+<p><a href="https://github.com/seung-oon/drug-recommendation-research"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/check-hidr-dark.svg"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/check-hidr-light.svg" width="270" alt="HI-DR은 약을 너무 많이 추천해서 사후 필터가 필요할까? 가설이 틀렸음. 방문당 후보 20.07개, 정답 20.16개. 후보 풀을 재설계해 현재 방문 기준 Jaccard 0.4550 → 0.5231"></picture></a> <a href="https://github.com/KozzilzzilE/DCC_Problem"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/check-dcc-dark.svg"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/check-dcc-light.svg" width="270" alt="DCC 증상 분류의 F1@0.5는 왜 낮았을까? 드문 증상의 보정 문제. 손실 가중 power 0.5 등으로 Macro F1@0.5 0.5967 → 제출 0.6599"></picture></a> <a href="https://github.com/seung-oon/drug-recommendation-research"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/check-ddi-dark.svg"><img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/check-ddi-light.svg" width="270" alt="SafeDrug의 DDI 페널티는 모든 환자군에 고르게 작동할까? 고르지 않았음. 페널티를 끄면 군집 간 초과 DDI 격차 0.030 → 0.016, k = 10, 4-seed 모두"></picture></a></p>
+
+### 작업
 
 | 작업 | 역할 · 시기 | 한 줄 요약 |
 | --- | --- | --- |
@@ -57,6 +46,8 @@
 | **HI-DR 재현·확장** | Jaccard **0.4550 → 0.5231** | HI-DR 빔 출력 대비, 현재 방문 기준, 방문당 추천 약 20개로 맞춤, 재점수화 헤드 5-seed |
 | **SafeDrug 공정성 감사** | 보정 후 Jaccard 격차 **0.061** | 4-seed 풀링, k 선택 보정 후 p = 0.016 |
 | **SafeDrug DDI 제약 감사** | 페널티를 끄면 군집 간 초과 DDI 격차 **0.030 → 0.016** | k = 10, 4-seed 모두 감소 |
+
+<img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/projects/safedrug-clusters.webp" width="100%" alt="SafeDrug 진단 군집 10개의 보정 Jaccard(4-seed 풀링, long_k10). 호흡부전·폐렴·패혈증 0.488부터 안면외상·뇌동맥류 0.554까지.">
 
 원본 데이터와 행 단위 데이터는 공개하지 않고, **코드·보고서·집계 결과만 공개**합니다.
 
@@ -118,6 +109,8 @@ ICD-9/10을 통합한 MIMIC-IV 레코드를 재구축하고 신장·간 기능 �
 | **Mission 3 · 환자 증상 다중 라벨 분류** | 제출 추론 경로·학습 개선 | F1@0.5 **0.5967 → 0.6496 → 0.6599** |
 
 Mission 3의 제출 설정은 **Training 내부 dev로 결정**하고, Validation은 **마지막 1회 확인**에 사용했습니다.
+
+<img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/projects/dcc-steps.webp" width="100%" alt="DCC Mission 3 Macro F1@0.5 단계별 변화. Plain BCE 0.5967, pos_weight power 1.0 0.6189, power 0.5 0.6496, TF-IDF 0.6536, 4-seed 0.6546, TAPT+LLRD 0.6593, 제출 0.6599.">
 
 <details>
 <summary><b>Mission 1 · 음성 조각 학습과 통화 단위 예측</b></summary>
@@ -248,9 +241,6 @@ Backend · 2026.05
 
 <br>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,python,pytorch,postgres,mysql,redis,kafka,docker,aws,gcp,githubactions&amp;perline=6" width="360" alt="Java, Spring, Python, PyTorch, PostgreSQL, MySQL, Redis, Kafka, Docker, AWS, GCP, GitHub Actions">
-</p>
 
 | 분야 | 기술 |
 | --- | --- |
@@ -274,9 +264,7 @@ Backend · 2026.05
 
 </details>
 
-<p align="center">
-  <a href="https://seungyoon-portfolio.vercel.app"><picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/footer-dark.svg">
-    <img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/footer-light.svg" width="100%" alt="seungyoon-portfolio.vercel.app">
-  </picture></a>
-</p>
+<a href="https://seungyoon-portfolio.vercel.app"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/footer-dark.svg">
+  <img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/footer-light.svg" width="100%" alt="seungyoon · seungyoon-portfolio.vercel.app">
+</picture></a>

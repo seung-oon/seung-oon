@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 112" width="270" height="112" role="img" aria-label="Runify 러닝 코스 생성 서버, Kafka와 pgRouting, 서버 전담 구현">
-  <rect x="0.5" y="0.5" width="269" height="111" rx="11.5" fill="#141517" stroke="#2a2c30"/>
-  <rect x="242" y="18" width="10" height="10" rx="5" fill="#3ddc97"/>
-  <text x="20" y="28" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" letter-spacing="1.4" fill="#3ddc97">BACKEND</text>
-  <text x="19" y="62" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', Helvetica, Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-0.5" fill="#ededec">Kafka · pgRouting</text>
-  <text x="20" y="84" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#ededec">Runify 러닝 코스 생성 서버</text>
-  <text x="20" y="100" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', Helvetica, Arial, sans-serif" font-size="12" fill="#9da0a6">강남·서초 실그래프 · 서버 전담</text>
-</svg>

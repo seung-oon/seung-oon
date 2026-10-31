@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 270 112" width="270" height="112" role="img" aria-label="HI-DR 재현과 확장 시도, 후보 풀 재설계로 현재 방문 기준 Jaccard 0.4550에서 0.5231 (방문당 추천 약 20개로 맞춤, 재점수화 헤드 5-seed)">
-  <rect x="0.5" y="0.5" width="269" height="111" rx="11.5" fill="#141517" stroke="#2a2c30"/>
-  <rect x="242" y="18" width="10" height="10" rx="5" fill="#3ddc97"/>
-  <text x="20" y="28" font-family="ui-monospace, SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" letter-spacing="1.4" fill="#3ddc97">RESEARCH</text>
-  <text x="19" y="62" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', Helvetica, Arial, sans-serif" font-size="25" font-weight="700" letter-spacing="-0.5" fill="#ededec">0.4550 → 0.5231</text>
-  <text x="20" y="84" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#ededec">HI-DR 재현 · 확장 시도</text>
-  <text x="20" y="100" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', Helvetica, Arial, sans-serif" font-size="12" fill="#9da0a6">현재 방문 Jaccard · 약 20개 · 5-seed</text>
-</svg>
