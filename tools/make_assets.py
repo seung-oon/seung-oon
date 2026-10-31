@@ -46,18 +46,18 @@ def text(s, x, y, size, weight='Regular', track=0.0, fill='#000', anchor='start'
 def hero(c):
     W, H = 1200, 440
     parts = [f'<rect width="{W}" height="{H}" fill="{c["ground"]}"/>']
-    p, w1 = text('김승윤', 40, 196, 132, 'ExtraBold', -0.055, c['ink']); parts.append(p)
-    p, w2 = text('백엔드 개발자', 40, 334, 132, 'ExtraBold', -0.055, c['ink']); parts.append(p)
+    p, w1 = text('Seungyoon', 40, 196, 138, 'ExtraBold', -0.05, c['ink']); parts.append(p)
+    p, w2 = text('Kim', 40, 334, 138, 'ExtraBold', -0.05, c['ink']); parts.append(p)
     right = W - 40
-    for i, line in enumerate(['지도·경로 서버 개발 · 의료 추천 모델 재현 연구', '한성대학교 컴퓨터공학부 4학년']):
-        p, _ = text(line, right, 236 + i * 32, 21, 'Regular', -0.01, c['ink'], 'end'); parts.append(p)
+    for i, line in enumerate(['지도 위에서 경로를 계산하는 서버를 만들고,', '의료 추천 모델을 재현하는 연구를 합니다.', '김승윤 · 한성대학교 컴퓨터공학부 4학년']):
+        p, _ = text(line, right, 222 + i * 32, 21, 'SemiBold' if i == 2 else 'Regular', -0.01, c['muted'] if i == 2 else c['ink'], 'end'); parts.append(p)
     label, lw = text('seungyoon-portfolio.vercel.app', 0, 0, 19, 'SemiBold', -0.01, c['on_accent'])
     bw = lw + 44
-    p, _ = text('seungyoon-portfolio.vercel.app', right - bw + 22, 330, 19, 'SemiBold', -0.01, c['on_accent'])
-    parts.append(f'<rect x="{right - bw:.1f}" y="296" width="{bw:.1f}" height="52" fill="{c["accent"]}"/>')
+    p, _ = text('seungyoon-portfolio.vercel.app', right - bw + 22, 350, 19, 'SemiBold', -0.01, c['on_accent'])
+    parts.append(f'<rect x="{right - bw:.1f}" y="316" width="{bw:.1f}" height="52" fill="{c["accent"]}"/>')
     parts.append(p)
     assert 40 + max(w1, w2) < right - bw - 24, 'headline runs into the right column'
-    return svg(W, H, '김승윤 · 백엔드 개발자 · 지도·경로 서버 개발, 의료 추천 모델 재현 연구 · seungyoon-portfolio.vercel.app', parts)
+    return svg(W, H, 'Seungyoon Kim · 지도 위에서 경로를 계산하는 서버를 만들고, 의료 추천 모델을 재현하는 연구를 합니다 · 김승윤, 한성대학교 컴퓨터공학부 4학년 · seungyoon-portfolio.vercel.app', parts)
 
 
 def check(c, question, before, after, verdict, label):

@@ -3,10 +3,10 @@
 <!-- 이 파일은 단독으로 사용할 수 있도록 이미지 경로를 모두 절대 URL로 지정했습니다. 그림은 tools/make_assets.py로 만들며, 포트폴리오 사이트와 같은 디자인(회색 바탕, 검정 글자, 녹색 하나, Pretendard)을 씁니다. -->
 <a href="https://seungyoon-portfolio.vercel.app"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/hero-dark.svg">
-  <img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/hero-light.svg" width="100%" alt="김승윤 · 백엔드 개발자 · 지도·경로 서버 개발, 의료 추천 모델 재현 연구 · 한성대학교 컴퓨터공학부 4학년 · seungyoon-portfolio.vercel.app">
+  <img src="https://raw.githubusercontent.com/seung-oon/seung-oon/main/assets/hero-light.svg" width="100%" alt="Seungyoon Kim · 김승윤 · 백엔드 개발자 · 한성대학교 컴퓨터공학부 4학년 · seungyoon-portfolio.vercel.app">
 </picture></a>
 
-Spring Boot와 PostGIS로 지도·경로 서버를 만들고, 의료 추천 모델 재현 연구를 하고 있습니다.
+지도 위에서 경로를 계산하는 서버를 만들고, 의료 추천 모델을 재현하는 연구를 합니다. 주로 Spring Boot, PostGIS, PyTorch를 씁니다.
 
 **[포트폴리오](https://seungyoon-portfolio.vercel.app)** · **[메일](mailto:rlatmddbs02@gmail.com)** · **[LinkedIn](https://www.linkedin.com/in/%EC%8A%B9%EC%9C%A4-%EA%B9%80-87099041a/)** · **[전체 저장소](https://github.com/seung-oon?tab=repositories)**
 
